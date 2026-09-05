@@ -1,0 +1,16 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+python-multipart==0.0.20
+numpy==2.2.1
+
+# CPU-only torch. Serving is matrix lookups against precomputed embeddings —
+# no training, no GPU needed. The index URL avoids pulling CUDA wheels (~2GB
+# heavier for nothing this container uses).
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+
+# resume_analyze.py dependencies — adjust to match whatever it actually
+# imports (pdfplumber/pypdf for PDF text, python-docx for .docx resumes, etc.)
+pdfplumber==0.11.4
+python-docx==1.1.2

@@ -1,4 +1,4 @@
-data/
+/data/
 So_archive/
 
 day1_out/
@@ -25,3 +25,4 @@ out/
 
 *.log
 .DS_Store
+

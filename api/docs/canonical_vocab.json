@@ -1,0 +1,6979 @@
+[
+ {
+  "canonical": "Git",
+  "norm_key": "git",
+  "aliases": [
+   "Git"
+  ],
+  "category": "Tool",
+  "years": [
+   "2021",
+   "2022"
+  ],
+  "max_frequency": 68171
+ },
+ {
+  "canonical": "Visual Studio Code",
+  "norm_key": "vscode",
+  "aliases": [
+   "Visual Studio Code"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 63793
+ },
+ {
+  "canonical": "JavaScript",
+  "norm_key": "javascript",
+  "aliases": [
+   "JS",
+   "JavaScript"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 55711
+ },
+ {
+  "canonical": "ChatGPT",
+  "norm_key": "chatgpt",
+  "aliases": [
+   "ChatGPT"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 52462
+ },
+ {
+  "canonical": "HTML/CSS",
+  "norm_key": "html/css",
+  "aliases": [
+   "CSS",
+   "HTML",
+   "HTML/CSS"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 46396
+ },
+ {
+  "canonical": "Microsoft Teams",
+  "norm_key": "microsoftteams",
+  "aliases": [
+   "Microsoft Teams"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 43511
+ },
+ {
+  "canonical": "Python",
+  "norm_key": "python",
+  "aliases": [
+   "Python"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 43158
+ },
+ {
+  "canonical": "SQL",
+  "norm_key": "sql",
+  "aliases": [
+   "SQL"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 42623
+ },
+ {
+  "canonical": "Docker",
+  "norm_key": "docker",
+  "aliases": [
+   "Docker"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 41369
+ },
+ {
+  "canonical": "Slack (public)",
+  "norm_key": "slack",
+  "aliases": [
+   "Slack",
+   "Slack (public)"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 40048
+ },
+ {
+  "canonical": "npm",
+  "norm_key": "npm",
+  "aliases": [
+   "npm"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 39609
+ },
+ {
+  "canonical": "Zoom",
+  "norm_key": "zoom",
+  "aliases": [
+   "Zoom"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 38078
+ },
+ {
+  "canonical": "Windows",
+  "norm_key": "windows",
+  "aliases": [
+   "Windows"
+  ],
+  "category": "OS",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 37758
+ },
+ {
+  "canonical": "Jira",
+  "norm_key": "jira",
+  "aliases": [
+   "Jira"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 37642
+ },
+ {
+  "canonical": "MySQL",
+  "norm_key": "mysql",
+  "aliases": [
+   "MySQL"
+  ],
+  "category": "Database",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 35289
+ },
+ {
+  "canonical": "PostgreSQL",
+  "norm_key": "postgresql",
+  "aliases": [
+   "PostgreSQL",
+   "Postgres"
+  ],
+  "category": "Database",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 34909
+ },
+ {
+  "canonical": "TypeScript",
+  "norm_key": "typescript",
+  "aliases": [
+   "TS",
+   "TypeScript"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 34041
+ },
+ {
+  "canonical": "Discord",
+  "norm_key": "discord",
+  "aliases": [
+   "Discord"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 33882
+ },
+ {
+  "canonical": "Amazon Web Services (AWS)",
+  "norm_key": "aws",
+  "aliases": [
+   "AWS",
+   "Amazon Web Services",
+   "Amazon Web Services (AWS)",
+   "Web Services (AWS)"
+  ],
+  "category": "Platform",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 33818
+ },
+ {
+  "canonical": "Node.js",
+  "norm_key": "node.js",
+  "aliases": [
+   "Node",
+   "Node.js",
+   "NodeJS"
+  ],
+  "category": [
+   "Language",
+   "WebFramework"
+  ],
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 30626
+ },
+ {
+  "canonical": "Google Meet",
+  "norm_key": "googlemeet",
+  "aliases": [
+   "Google Meet"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 30484
+ },
+ {
+  "canonical": "Java",
+  "norm_key": "java",
+  "aliases": [
+   "Java"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 29162
+ },
+ {
+  "canonical": "React",
+  "norm_key": "react",
+  "aliases": [
+   "React"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 29137
+ },
+ {
+  "canonical": "Bash/Shell",
+  "norm_key": "bash/shell",
+  "aliases": [
+   "Bash",
+   "Bash/Shell",
+   "Bash/Shell (all shells)",
+   "Shell",
+   "Shell Scripting",
+   "Shell scripting"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 28351
+ },
+ {
+  "canonical": "Visual Studio",
+  "norm_key": "visualstudio",
+  "aliases": [
+   "Visual Studio"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 26970
+ },
+ {
+  "canonical": "Whatsapp",
+  "norm_key": "whatsapp",
+  "aliases": [
+   "Whatsapp"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 25640
+ },
+ {
+  "canonical": "Stack Overflow",
+  "norm_key": "stackoverflow",
+  "aliases": [
+   "Stack Overflow"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 25424
+ },
+ {
+  "canonical": "React.js",
+  "norm_key": "react.js",
+  "aliases": [
+   "React.js"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022"
+  ],
+  "max_frequency": 25296
+ },
+ {
+  "canonical": "Confluence",
+  "norm_key": "confluence",
+  "aliases": [
+   "Confluence"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 24551
+ },
+ {
+  "canonical": "GitHub",
+  "norm_key": "github",
+  "aliases": [
+   "GitHub",
+   "GitHub (public)"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 24387
+ },
+ {
+  "canonical": "Notepad++",
+  "norm_key": "notepad++",
+  "aliases": [
+   "Notepad++"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 24262
+ },
+ {
+  "canonical": "C#",
+  "norm_key": "c#",
+  "aliases": [
+   "C Sharp",
+   "C#",
+   "CSharp"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 24193
+ },
+ {
+  "canonical": "SQLite",
+  "norm_key": "sqlite",
+  "aliases": [
+   "SQLite"
+  ],
+  "category": "Database",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 23678
+ },
+ {
+  "canonical": "IntelliJ",
+  "norm_key": "intellij",
+  "aliases": [
+   "IntelliJ"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022"
+  ],
+  "max_frequency": 23467
+ },
+ {
+  "canonical": "Pip",
+  "norm_key": "pip",
+  "aliases": [
+   "Pip"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 23281
+ },
+ {
+  "canonical": "IntelliJ IDEA",
+  "norm_key": "intellijidea",
+  "aliases": [
+   "IntelliJ IDEA"
+  ],
+  "category": "IDE",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 23209
+ },
+ {
+  "canonical": "GitHub Copilot",
+  "norm_key": "githubcopilot",
+  "aliases": [
+   "GitHub Copilot"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 22078
+ },
+ {
+  "canonical": "jQuery",
+  "norm_key": "jquery",
+  "aliases": [
+   "jQuery"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 21693
+ },
+ {
+  "canonical": "Linux (non-WSL)",
+  "norm_key": "linux",
+  "aliases": [
+   "Linux",
+   "Linux (non-WSL)",
+   "Linux-based"
+  ],
+  "category": "OS",
+  "years": [
+   "2021",
+   "2022",
+   "2025"
+  ],
+  "max_frequency": 21088
+ },
+ {
+  "canonical": "MacOS",
+  "norm_key": "macos",
+  "aliases": [
+   "Mac OS",
+   "Mac OS X",
+   "MacOS",
+   "OSX",
+   "macOS"
+  ],
+  "category": "OS",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 20984
+ },
+ {
+  "canonical": "C++",
+  "norm_key": "c++",
+  "aliases": [
+   "C++"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 20057
+ },
+ {
+  "canonical": "Vim",
+  "norm_key": "vim",
+  "aliases": [
+   "Vim"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 19752
+ },
+ {
+  "canonical": "MongoDB",
+  "norm_key": "mongodb",
+  "aliases": [
+   "MongoDB"
+  ],
+  "category": "Database",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 19556
+ },
+ {
+  "canonical": "Microsoft SQL Server",
+  "norm_key": "microsoftsqlserver",
+  "aliases": [
+   "MSSQL",
+   "Microsoft SQL Server",
+   "SQL Server",
+   "T-SQL"
+  ],
+  "category": "Database",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 19506
+ },
+ {
+  "canonical": "Markdown File",
+  "norm_key": "markdownfile",
+  "aliases": [
+   "Markdown File"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 18813
+ },
+ {
+  "canonical": "YouTube",
+  "norm_key": "youtube",
+  "aliases": [
+   "YouTube"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 18273
+ },
+ {
+  "canonical": "Android Studio",
+  "norm_key": "androidstudio",
+  "aliases": [
+   "Android Studio"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 18141
+ },
+ {
+  "canonical": "PHP",
+  "norm_key": "php",
+  "aliases": [
+   "PHP"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 18130
+ },
+ {
+  "canonical": "Microsoft Azure",
+  "norm_key": "microsoftazure",
+  "aliases": [
+   "Azure",
+   "MS Azure",
+   "Microsoft Azure"
+  ],
+  "category": "Platform",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 18105
+ },
+ {
+  "canonical": "Homebrew",
+  "norm_key": "homebrew",
+  "aliases": [
+   "Homebrew"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 17647
+ },
+ {
+  "canonical": "Yarn",
+  "norm_key": "yarn",
+  "aliases": [
+   "Yarn"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 17545
+ },
+ {
+  "canonical": "C",
+  "norm_key": "c",
+  "aliases": [
+   "C"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 17329
+ },
+ {
+  "canonical": ".NET (5+)",
+  "norm_key": ".net",
+  "aliases": [
+   ".NET",
+   ".NET (5+)",
+   ".NET Core",
+   "dotnet"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 17005
+ },
+ {
+  "canonical": "Sublime Text",
+  "norm_key": "sublimetext",
+  "aliases": [
+   "Sublime Text"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 16714
+ },
+ {
+  "canonical": "Google Cloud",
+  "norm_key": "googlecloud",
+  "aliases": [
+   "GCP",
+   "Google Cloud",
+   "Google Cloud Platform"
+  ],
+  "category": "Platform",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 16687
+ },
+ {
+  "canonical": "Webpack",
+  "norm_key": "webpack",
+  "aliases": [
+   "Webpack"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 16665
+ },
+ {
+  "canonical": ".NET Framework (1.0 - 4.8)",
+  "norm_key": ".netframework",
+  "aliases": [
+   ".NET Framework",
+   ".NET Framework (1.0 - 4.8)"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2021",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 16620
+ },
+ {
+  "canonical": "NumPy",
+  "norm_key": "numpy",
+  "aliases": [
+   "NumPy"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 16445
+ },
+ {
+  "canonical": "Reddit",
+  "norm_key": "reddit",
+  "aliases": [
+   "Reddit"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 16219
+ },
+ {
+  "canonical": "Make",
+  "norm_key": "make",
+  "aliases": [
+   "Make"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 16161
+ },
+ {
+  "canonical": "Telegram",
+  "norm_key": "telegram",
+  "aliases": [
+   "Telegram"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 15909
+ },
+ {
+  "canonical": "PyCharm",
+  "norm_key": "pycharm",
+  "aliases": [
+   "PyCharm"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 15755
+ },
+ {
+  "canonical": "Redis",
+  "norm_key": "redis",
+  "aliases": [
+   "Redis"
+  ],
+  "category": "Database",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 15639
+ },
+ {
+  "canonical": ".NET Core / .NET 5",
+  "norm_key": ".netcore/.net5",
+  "aliases": [
+   ".NET Core / .NET 5"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2021"
+  ],
+  "max_frequency": 15310
+ },
+ {
+  "canonical": "Kubernetes",
+  "norm_key": "kubernetes",
+  "aliases": [
+   "K8s",
+   "Kubernetes"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 15260
+ },
+ {
+  "canonical": "Express",
+  "norm_key": "express",
+  "aliases": [
+   "Express"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 15010
+ },
+ {
+  "canonical": "Angular",
+  "norm_key": "angular",
+  "aliases": [
+   "Angular",
+   "Angular.js",
+   "AngularJS"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 14471
+ },
+ {
+  "canonical": "Stack Exchange",
+  "norm_key": "stackexchange",
+  "aliases": [
+   "Stack Exchange"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 14027
+ },
+ {
+  "canonical": "Trello",
+  "norm_key": "trello",
+  "aliases": [
+   "Trello"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 13919
+ },
+ {
+  "canonical": "Pandas",
+  "norm_key": "pandas",
+  "aliases": [
+   "Pandas"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 13664
+ },
+ {
+  "canonical": "MariaDB",
+  "norm_key": "mariadb",
+  "aliases": [
+   "MariaDB"
+  ],
+  "category": "Database",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 13495
+ },
+ {
+  "canonical": "OpenAI GPT",
+  "norm_key": "openaigpt",
+  "aliases": [
+   "OpenAI GPT"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 13407
+ },
+ {
+  "canonical": "Bing AI",
+  "norm_key": "bingai",
+  "aliases": [
+   "Bing AI"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 12981
+ },
+ {
+  "canonical": "Eclipse",
+  "norm_key": "eclipse",
+  "aliases": [
+   "Eclipse"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 12955
+ },
+ {
+  "canonical": "Heroku",
+  "norm_key": "heroku",
+  "aliases": [
+   "Heroku"
+  ],
+  "category": "Platform",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 12897
+ },
+ {
+  "canonical": "Notion",
+  "norm_key": "notion",
+  "aliases": [
+   "Notion"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 12793
+ },
+ {
+  "canonical": "Jira Work Management",
+  "norm_key": "jiraworkmanagement",
+  "aliases": [
+   "Jira Work Management"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022"
+  ],
+  "max_frequency": 12775
+ },
+ {
+  "canonical": "NuGet",
+  "norm_key": "nuget",
+  "aliases": [
+   "NuGet"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 12235
+ },
+ {
+  "canonical": "GitHub Discussions",
+  "norm_key": "githubdiscussions",
+  "aliases": [
+   "GitHub Discussions"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 12205
+ },
+ {
+  "canonical": "Maven (build tool)",
+  "norm_key": "maven",
+  "aliases": [
+   "Maven",
+   "Maven (build tool)"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 12109
+ },
+ {
+  "canonical": "Next.js",
+  "norm_key": "next.js",
+  "aliases": [
+   "Next.js"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 11972
+ },
+ {
+  "canonical": "Gradle",
+  "norm_key": "gradle",
+  "aliases": [
+   "Gradle"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 11961
+ },
+ {
+  "canonical": "Vue.js",
+  "norm_key": "vue.js",
+  "aliases": [
+   "Vue",
+   "Vue.js",
+   "VueJS"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 11954
+ },
+ {
+  "canonical": "PowerShell",
+  "norm_key": "powershell",
+  "aliases": [
+   "PowerShell"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 11902
+ },
+ {
+  "canonical": "ASP.NET Core",
+  "norm_key": "asp.netcore",
+  "aliases": [
+   "ASP.NET CORE",
+   "ASP.NET Core"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 11896
+ },
+ {
+  "canonical": "Vite",
+  "norm_key": "vite",
+  "aliases": [
+   "Vite"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 11807
+ },
+ {
+  "canonical": "Visual Studio Solution",
+  "norm_key": "visualstudiosolution",
+  "aliases": [
+   "Visual Studio Solution"
+  ],
+  "category": "Tool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 11751
+ },
+ {
+  "canonical": "Go",
+  "norm_key": "go",
+  "aliases": [
+   "Go"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 11592
+ },
+ {
+  "canonical": "CMake",
+  "norm_key": "cmake",
+  "aliases": [
+   "CMake"
+  ],
+  "category": [
+   "Embedded",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 11506
+ },
+ {
+  "canonical": "Skype",
+  "norm_key": "skype",
+  "aliases": [
+   "Skype"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 11488
+ },
+ {
+  "canonical": "Rust",
+  "norm_key": "rust",
+  "aliases": [
+   "Rust"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 11427
+ },
+ {
+  "canonical": "Firebase",
+  "norm_key": "firebase",
+  "aliases": [
+   "Firebase"
+  ],
+  "category": [
+   "Database",
+   "Platform"
+  ],
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 11373
+ },
+ {
+  "canonical": "LinkedIn",
+  "norm_key": "linkedin",
+  "aliases": [
+   "LinkedIn"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 11239
+ },
+ {
+  "canonical": "Azure Devops",
+  "norm_key": "azuredevops",
+  "aliases": [
+   "Azure Devops"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 11186
+ },
+ {
+  "canonical": "Google Gemini",
+  "norm_key": "googlegemini",
+  "aliases": [
+   "Gemini",
+   "Google Gemini"
+  ],
+  "category": [
+   "AITool",
+   "Topic"
+  ],
+  "years": [
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 11056
+ },
+ {
+  "canonical": "Jupyter Nb/JupyterLab",
+  "norm_key": "jupyternotebook/jupyterlab",
+  "aliases": [
+   "IPython/Jupyter",
+   "Jupyter Nb",
+   "Jupyter Nb/JupyterLab",
+   "Jupyter Notebook/JupyterLab",
+   "JupyterLab"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 11024
+ },
+ {
+  "canonical": "Raspberry Pi",
+  "norm_key": "raspberrypi",
+  "aliases": [
+   "Raspberry Pi"
+  ],
+  "category": "Embedded",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 10783
+ },
+ {
+  "canonical": "GitLab",
+  "norm_key": "gitlab",
+  "aliases": [
+   "GitLab"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 10704
+ },
+ {
+  "canonical": "Cloudflare",
+  "norm_key": "cloudflare",
+  "aliases": [
+   "Cloudflare"
+  ],
+  "category": "Platform",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 10599
+ },
+ {
+  "canonical": "Atom",
+  "norm_key": "atom",
+  "aliases": [
+   "Atom"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 10564
+ },
+ {
+  "canonical": "Miro",
+  "norm_key": "miro",
+  "aliases": [
+   "Miro"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 10458
+ },
+ {
+  "canonical": "Cargo",
+  "norm_key": "cargo",
+  "aliases": [
+   "Cargo"
+  ],
+  "category": [
+   "Embedded",
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 10409
+ },
+ {
+  "canonical": "Neovim",
+  "norm_key": "neovim",
+  "aliases": [
+   "Neovim"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 10282
+ },
+ {
+  "canonical": "Elasticsearch",
+  "norm_key": "elasticsearch",
+  "aliases": [
+   "Elasticsearch"
+  ],
+  "category": "Database",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 10263
+ },
+ {
+  "canonical": "Flask",
+  "norm_key": "flask",
+  "aliases": [
+   "Flask"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 10174
+ },
+ {
+  "canonical": "GNU GCC",
+  "norm_key": "gnugcc",
+  "aliases": [
+   "GCC",
+   "GNU GCC"
+  ],
+  "category": [
+   "Embedded",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 10038
+ },
+ {
+  "canonical": "ASP.NET",
+  "norm_key": "asp.net",
+  "aliases": [
+   "ASP.NET"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 9918
+ },
+ {
+  "canonical": "Signal",
+  "norm_key": "signal",
+  "aliases": [
+   "Signal"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 9809
+ },
+ {
+  "canonical": "WordPress",
+  "norm_key": "wordpress",
+  "aliases": [
+   "WordPress"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 9604
+ },
+ {
+  "canonical": "Digital Ocean",
+  "norm_key": "digitalocean",
+  "aliases": [
+   "Digital Ocean",
+   "DigitalOcean"
+  ],
+  "category": "Platform",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 9495
+ },
+ {
+  "canonical": "Django",
+  "norm_key": "django",
+  "aliases": [
+   "Django"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 9446
+ },
+ {
+  "canonical": "Google Chat",
+  "norm_key": "googlechat",
+  "aliases": [
+   "Google Chat"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 9261
+ },
+ {
+  "canonical": "Spring",
+  "norm_key": "spring",
+  "aliases": [
+   "Spring"
+  ],
+  "category": [
+   "Library/Framework",
+   "WebFramework"
+  ],
+  "years": [
+   "2021",
+   "2022"
+  ],
+  "max_frequency": 9177
+ },
+ {
+  "canonical": "Terraform",
+  "norm_key": "terraform",
+  "aliases": [
+   "Terraform"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 9068
+ },
+ {
+  "canonical": "Xcode",
+  "norm_key": "xcode",
+  "aliases": [
+   "Xcode"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 9040
+ },
+ {
+  "canonical": "Oracle",
+  "norm_key": "oracle",
+  "aliases": [
+   "Oracle"
+  ],
+  "category": "Database",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 8868
+ },
+ {
+  "canonical": "Medium",
+  "norm_key": "medium",
+  "aliases": [
+   "Medium"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 8844
+ },
+ {
+  "canonical": "Spring Boot",
+  "norm_key": "springboot",
+  "aliases": [
+   "Spring Boot"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 8583
+ },
+ {
+  "canonical": "MSBuild",
+  "norm_key": "msbuild",
+  "aliases": [
+   "MSBuild"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 8520
+ },
+ {
+  "canonical": "WolframAlpha",
+  "norm_key": "wolframalpha",
+  "aliases": [
+   "WolframAlpha"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 8419
+ },
+ {
+  "canonical": "Arduino",
+  "norm_key": "arduino",
+  "aliases": [
+   "Arduino"
+  ],
+  "category": "Embedded",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 8340
+ },
+ {
+  "canonical": "TensorFlow",
+  "norm_key": "tensorflow",
+  "aliases": [
+   "TensorFlow"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 8034
+ },
+ {
+  "canonical": "Kotlin",
+  "norm_key": "kotlin",
+  "aliases": [
+   "Kotlin"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 7935
+ },
+ {
+  "canonical": "Nano",
+  "norm_key": "nano",
+  "aliases": [
+   "Nano"
+  ],
+  "category": "IDE",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 7769
+ },
+ {
+  "canonical": "Spring Framework",
+  "norm_key": "springframework",
+  "aliases": [
+   "Spring Framework"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 7460
+ },
+ {
+  "canonical": "Vercel",
+  "norm_key": "vercel",
+  "aliases": [
+   "Vercel"
+  ],
+  "category": "Platform",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 7431
+ },
+ {
+  "canonical": "Angular.js",
+  "norm_key": "angular.js",
+  "aliases": [
+   "Angular.js"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022"
+  ],
+  "max_frequency": 7242
+ },
+ {
+  "canonical": "Unity 3D",
+  "norm_key": "unity3d",
+  "aliases": [
+   "Unity 3D"
+  ],
+  "category": "Tool",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 7206
+ },
+ {
+  "canonical": "Claude Sonnet",
+  "norm_key": "claudesonnet",
+  "aliases": [
+   "Claude Sonnet"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 7055
+ },
+ {
+  "canonical": "React Native",
+  "norm_key": "reactnative",
+  "aliases": [
+   "React Native"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 7051
+ },
+ {
+  "canonical": "RabbitMQ",
+  "norm_key": "rabbitmq",
+  "aliases": [
+   "RabbitMQ"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 6942
+ },
+ {
+  "canonical": "Ansible",
+  "norm_key": "ansible",
+  "aliases": [
+   "Ansible"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 6921
+ },
+ {
+  "canonical": "Dynamodb",
+  "norm_key": "dynamodb",
+  "aliases": [
+   "DynamoDB",
+   "Dynamodb"
+  ],
+  "category": "Database",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 6798
+ },
+ {
+  "canonical": "Flutter",
+  "norm_key": "flutter",
+  "aliases": [
+   "Flutter"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 6586
+ },
+ {
+  "canonical": "WebStorm",
+  "norm_key": "webstorm",
+  "aliases": [
+   "WebStorm",
+   "Webstorm"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 6564
+ },
+ {
+  "canonical": "Chocolatey",
+  "norm_key": "chocolatey",
+  "aliases": [
+   "Chocolatey"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 6509
+ },
+ {
+  "canonical": "Obsidian",
+  "norm_key": "obsidian",
+  "aliases": [
+   "Obsidian"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 6474
+ },
+ {
+  "canonical": "Laravel",
+  "norm_key": "laravel",
+  "aliases": [
+   "Laravel"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 6377
+ },
+ {
+  "canonical": "Scikit-Learn",
+  "norm_key": "scikitlearn",
+  "aliases": [
+   "Scikit-Learn",
+   "Scikit-learn"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 6339
+ },
+ {
+  "canonical": "Visual Studio Intellicode",
+  "norm_key": "visualstudiointellicode",
+  "aliases": [
+   "Visual Studio Intellicode"
+  ],
+  "category": "AITool",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 6296
+ },
+ {
+  "canonical": "Composer",
+  "norm_key": "composer",
+  "aliases": [
+   "Composer"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 6266
+ },
+ {
+  "canonical": "Netlify",
+  "norm_key": "netlify",
+  "aliases": [
+   "Netlify"
+  ],
+  "category": "Platform",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 6228
+ },
+ {
+  "canonical": "Google Bard AI",
+  "norm_key": "googlebardai",
+  "aliases": [
+   "Bard AI",
+   "Google Bard AI"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 6217
+ },
+ {
+  "canonical": "PhpStorm",
+  "norm_key": "phpstorm",
+  "aliases": [
+   "PHPStorm",
+   "PhpStorm"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 6096
+ },
+ {
+  "canonical": "Cisco Webex Teams",
+  "norm_key": "ciscowebexteams",
+  "aliases": [
+   "Cisco Webex Teams"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 6031
+ },
+ {
+  "canonical": "Apache Kafka",
+  "norm_key": "apachekafka",
+  "aliases": [
+   "Apache Kafka",
+   "Kafka"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 5984
+ },
+ {
+  "canonical": "LLVM's Clang",
+  "norm_key": "llvmsclang",
+  "aliases": [
+   "LLVM's Clang"
+  ],
+  "category": [
+   "Embedded",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 5959
+ },
+ {
+  "canonical": "Hacker News",
+  "norm_key": "hackernews",
+  "aliases": [
+   "Hacker News"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 5911
+ },
+ {
+  "canonical": "Large language model",
+  "norm_key": "largelanguagemodel",
+  "aliases": [
+   "Large language model"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 5889
+ },
+ {
+  "canonical": "Torch/PyTorch",
+  "norm_key": "torch/pytorch",
+  "aliases": [
+   "PyTorch",
+   "Torch",
+   "Torch/PyTorch"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 5884
+ },
+ {
+  "canonical": "Netbeans",
+  "norm_key": "netbeans",
+  "aliases": [
+   "NetBeans",
+   "Netbeans"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 5839
+ },
+ {
+  "canonical": "Gemini Flash",
+  "norm_key": "geminiflash",
+  "aliases": [
+   "Gemini Flash"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 5815
+ },
+ {
+  "canonical": "APT",
+  "norm_key": "apt",
+  "aliases": [
+   "APT"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 5780
+ },
+ {
+  "canonical": "OpenAI Reasoning",
+  "norm_key": "openaireasoning",
+  "aliases": [
+   "OpenAI Reasoning"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 5705
+ },
+ {
+  "canonical": "Ruby",
+  "norm_key": "ruby",
+  "aliases": [
+   "Ruby",
+   "Ruby on Rails"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 5569
+ },
+ {
+  "canonical": "Opencv",
+  "norm_key": "opencv",
+  "aliases": [
+   "Opencv"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 5455
+ },
+ {
+  "canonical": "Wikis",
+  "norm_key": "wikis",
+  "aliases": [
+   "Wikis"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 5364
+ },
+ {
+  "canonical": "Lua",
+  "norm_key": "lua",
+  "aliases": [
+   "Lua"
+  ],
+  "category": "Language",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 5336
+ },
+ {
+  "canonical": "FastAPI",
+  "norm_key": "fastapi",
+  "aliases": [
+   "FastAPI"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 5325
+ },
+ {
+  "canonical": "Pacman",
+  "norm_key": "pacman",
+  "aliases": [
+   "Pacman"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 5280
+ },
+ {
+  "canonical": "Dart",
+  "norm_key": "dart",
+  "aliases": [
+   "Dart"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 5273
+ },
+ {
+  "canonical": "Tabnine",
+  "norm_key": "tabnine",
+  "aliases": [
+   "Tabnine"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 5193
+ },
+ {
+  "canonical": "AngularJS",
+  "norm_key": "angularjs",
+  "aliases": [
+   "AngularJS"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 5176
+ },
+ {
+  "canonical": "X",
+  "norm_key": "x",
+  "aliases": [
+   "X"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 5175
+ },
+ {
+  "canonical": "pnpm",
+  "norm_key": "pnpm",
+  "aliases": [
+   "pnpm"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 5036
+ },
+ {
+  "canonical": "VMware",
+  "norm_key": "vmware",
+  "aliases": [
+   "VMware"
+  ],
+  "category": "Platform",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 4964
+ },
+ {
+  "canonical": "Firebase Realtime Database",
+  "norm_key": "firebaserealtimedatabase",
+  "aliases": [
+   "Firebase Realtime Database"
+  ],
+  "category": "Database",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 4939
+ },
+ {
+  "canonical": "Keras",
+  "norm_key": "keras",
+  "aliases": [
+   "Keras"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 4930
+ },
+ {
+  "canonical": "Cloud Firestore",
+  "norm_key": "cloudfirestore",
+  "aliases": [
+   "Cloud Firestore"
+  ],
+  "category": "Database",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 4901
+ },
+ {
+  "canonical": "Rider",
+  "norm_key": "rider",
+  "aliases": [
+   "Rider"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 4819
+ },
+ {
+  "canonical": "Qt",
+  "norm_key": "qt",
+  "aliases": [
+   "Qt"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 4812
+ },
+ {
+  "canonical": "Assembly",
+  "norm_key": "assembly",
+  "aliases": [
+   "Assembly"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 4753
+ },
+ {
+  "canonical": "Svelte",
+  "norm_key": "svelte",
+  "aliases": [
+   "Svelte"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 4753
+ },
+ {
+  "canonical": "Electron",
+  "norm_key": "electron",
+  "aliases": [
+   "Electron"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 4685
+ },
+ {
+  "canonical": "Cursor",
+  "norm_key": "cursor",
+  "aliases": [
+   "Cursor"
+  ],
+  "category": "IDE",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 4670
+ },
+ {
+  "canonical": "OpenGL",
+  "norm_key": "opengl",
+  "aliases": [
+   "OpenGL"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 4664
+ },
+ {
+  "canonical": "Tailwind CSS 4",
+  "norm_key": "tailwindcss4",
+  "aliases": [
+   "Tailwind CSS 4"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 4641
+ },
+ {
+  "canonical": "Google Workspace",
+  "norm_key": "googleworkspace",
+  "aliases": [
+   "Google Workspace",
+   "Workspace"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 4560
+ },
+ {
+  "canonical": "Ruby on Rails",
+  "norm_key": "rubyonrails",
+  "aliases": [
+   "Ruby on Rails"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 4438
+ },
+ {
+  "canonical": "DataGrip",
+  "norm_key": "datagrip",
+  "aliases": [
+   "DataGrip"
+  ],
+  "category": "IDE",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 4396
+ },
+ {
+  "canonical": "OpenAI Image",
+  "norm_key": "openaiimage",
+  "aliases": [
+   "OpenAI Image"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 4388
+ },
+ {
+  "canonical": "Emacs",
+  "norm_key": "emacs",
+  "aliases": [
+   "Emacs"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 4327
+ },
+ {
+  "canonical": "CLion",
+  "norm_key": "clion",
+  "aliases": [
+   "CLion"
+  ],
+  "category": "IDE",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 4240
+ },
+ {
+  "canonical": "IPython",
+  "norm_key": "ipython",
+  "aliases": [
+   "IPython"
+  ],
+  "category": "IDE",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 4226
+ },
+ {
+  "canonical": "Gemini Reasoning",
+  "norm_key": "geminireasoning",
+  "aliases": [
+   "Gemini Reasoning"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 4213
+ },
+ {
+  "canonical": "Swift",
+  "norm_key": "swift",
+  "aliases": [
+   "Swift"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 4204
+ },
+ {
+  "canonical": "R",
+  "norm_key": "r",
+  "aliases": [
+   "R"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 4185
+ },
+ {
+  "canonical": ".NET 8+",
+  "norm_key": ".net8+",
+  "aliases": [
+   ".NET 8+"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 4088
+ },
+ {
+  "canonical": "VBA",
+  "norm_key": "vba",
+  "aliases": [
+   "VBA"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 3847
+ },
+ {
+  "canonical": "MATLAB",
+  "norm_key": "matlab",
+  "aliases": [
+   "MATLAB",
+   "Matlab"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 3846
+ },
+ {
+  "canonical": "DeepSeek Reasoning",
+  "norm_key": "deepseekreasoning",
+  "aliases": [
+   "DeepSeek Reasoning"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 3844
+ },
+ {
+  "canonical": "Claude",
+  "norm_key": "claude",
+  "aliases": [
+   "Claude"
+  ],
+  "category": "AITool",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 3760
+ },
+ {
+  "canonical": "NestJS",
+  "norm_key": "nestjs",
+  "aliases": [
+   "NestJS"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 3681
+ },
+ {
+  "canonical": "MSVC",
+  "norm_key": "msvc",
+  "aliases": [
+   "MSVC"
+  ],
+  "category": [
+   "Embedded",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 3666
+ },
+ {
+  "canonical": "VSCodium",
+  "norm_key": "vscodium",
+  "aliases": [
+   "VSCodium"
+  ],
+  "category": "IDE",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 3627
+ },
+ {
+  "canonical": "Asana",
+  "norm_key": "asana",
+  "aliases": [
+   "Asana"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 3624
+ },
+ {
+  "canonical": "Visual Basic (.Net)",
+  "norm_key": "visualbasic",
+  "aliases": [
+   "Visual Basic",
+   "Visual Basic (.Net)"
+  ],
+  "category": "Language",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 3568
+ },
+ {
+  "canonical": "Blazor",
+  "norm_key": "blazor",
+  "aliases": [
+   "Blazor"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 3501
+ },
+ {
+  "canonical": "Cordova",
+  "norm_key": "cordova",
+  "aliases": [
+   "Cordova"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 3491
+ },
+ {
+  "canonical": "BigQuery",
+  "norm_key": "bigquery",
+  "aliases": [
+   "BigQuery"
+  ],
+  "category": "Database",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 3456
+ },
+ {
+  "canonical": "Dev.to",
+  "norm_key": "dev.to",
+  "aliases": [
+   "Dev.to"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 3456
+ },
+ {
+  "canonical": "Bluesky",
+  "norm_key": "bluesky",
+  "aliases": [
+   "Bluesky"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 3262
+ },
+ {
+  "canonical": "Ollama",
+  "norm_key": "ollama",
+  "aliases": [
+   "Ollama"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 3262
+ },
+ {
+  "canonical": "Microsoft Access",
+  "norm_key": "microsoftaccess",
+  "aliases": [
+   "Microsoft Access"
+  ],
+  "category": "Database",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 3257
+ },
+ {
+  "canonical": "Mattermost",
+  "norm_key": "mattermost",
+  "aliases": [
+   "Mattermost"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 3256
+ },
+ {
+  "canonical": "RStudio",
+  "norm_key": "rstudio",
+  "aliases": [
+   "RStudio"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 3200
+ },
+ {
+  "canonical": "Podman",
+  "norm_key": "podman",
+  "aliases": [
+   "Podman"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 3129
+ },
+ {
+  "canonical": "Hetzner",
+  "norm_key": "hetzner",
+  "aliases": [
+   "Hetzner"
+  ],
+  "category": "Platform",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 3069
+ },
+ {
+  "canonical": "CUDA",
+  "norm_key": "cuda",
+  "aliases": [
+   "CUDA"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 3042
+ },
+ {
+  "canonical": "Jitsi",
+  "norm_key": "jitsi",
+  "aliases": [
+   "Jitsi"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 3029
+ },
+ {
+  "canonical": "Groovy",
+  "norm_key": "groovy",
+  "aliases": [
+   "Groovy"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2976
+ },
+ {
+  "canonical": "Meta Llama",
+  "norm_key": "metallama",
+  "aliases": [
+   "Meta Llama"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 2937
+ },
+ {
+  "canonical": "Ninja",
+  "norm_key": "ninja",
+  "aliases": [
+   "Ninja"
+  ],
+  "category": [
+   "Embedded",
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2928
+ },
+ {
+  "canonical": "Clickup",
+  "norm_key": "clickup",
+  "aliases": [
+   "ClickUp",
+   "Clickup"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2887
+ },
+ {
+  "canonical": "Prometheus",
+  "norm_key": "prometheus",
+  "aliases": [
+   "Prometheus"
+  ],
+  "category": "Platform",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 2881
+ },
+ {
+  "canonical": "Xamarin",
+  "norm_key": "xamarin",
+  "aliases": [
+   "Xamarin"
+  ],
+  "category": [
+   "Library/Framework",
+   "Tool"
+  ],
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2844
+ },
+ {
+  "canonical": "Apache Spark",
+  "norm_key": "apachespark",
+  "aliases": [
+   "Apache Spark",
+   "Spark"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2833
+ },
+ {
+  "canonical": "Delphi",
+  "norm_key": "delphi",
+  "aliases": [
+   "Delphi"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2831
+ },
+ {
+  "canonical": "Codeium",
+  "norm_key": "codeium",
+  "aliases": [
+   "Codeium"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2809
+ },
+ {
+  "canonical": "H2",
+  "norm_key": "h2",
+  "aliases": [
+   "H2"
+  ],
+  "category": "Database",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2808
+ },
+ {
+  "canonical": "Goland",
+  "norm_key": "goland",
+  "aliases": [
+   "GoLand",
+   "Goland"
+  ],
+  "category": "IDE",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2795
+ },
+ {
+  "canonical": "Matrix",
+  "norm_key": "matrix",
+  "aliases": [
+   "Matrix"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2791
+ },
+ {
+  "canonical": "Linode, now Akamai",
+  "norm_key": "linode",
+  "aliases": [
+   "Linode",
+   "Linode, now Akamai"
+  ],
+  "category": "Platform",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2755
+ },
+ {
+  "canonical": "Windows Subsystem for Linux (WSL)",
+  "norm_key": "wsl",
+  "aliases": [
+   "Windows Subsystem for Linux",
+   "Windows Subsystem for Linux (WSL)"
+  ],
+  "category": "OS",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2743
+ },
+ {
+  "canonical": "Twitch",
+  "norm_key": "twitch",
+  "aliases": [
+   "Twitch"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 2697
+ },
+ {
+  "canonical": "Doxygen",
+  "norm_key": "doxygen",
+  "aliases": [
+   "Doxygen"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2683
+ },
+ {
+  "canonical": "Cosmos DB",
+  "norm_key": "cosmosdb",
+  "aliases": [
+   "Cosmos DB"
+  ],
+  "category": "Database",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2672
+ },
+ {
+  "canonical": "Nuxt.js",
+  "norm_key": "nuxt.js",
+  "aliases": [
+   "Nuxt.js"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2652
+ },
+ {
+  "canonical": "SwiftUI",
+  "norm_key": "swiftui",
+  "aliases": [
+   "SwiftUI"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2643
+ },
+ {
+  "canonical": "IRC",
+  "norm_key": "irc",
+  "aliases": [
+   "IRC"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2533
+ },
+ {
+  "canonical": "Claude Code",
+  "norm_key": "claudecode",
+  "aliases": [
+   "Claude Code"
+  ],
+  "category": "IDE",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 2533
+ },
+ {
+  "canonical": "Gatsby",
+  "norm_key": "gatsby",
+  "aliases": [
+   "Gatsby"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2501
+ },
+ {
+  "canonical": "Unreal Engine",
+  "norm_key": "unrealengine",
+  "aliases": [
+   "Unreal Engine"
+  ],
+  "category": "Tool",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2482
+ },
+ {
+  "canonical": "Godot",
+  "norm_key": "godot",
+  "aliases": [
+   "Godot"
+  ],
+  "category": "Tool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2478
+ },
+ {
+  "canonical": "Perplexity AI",
+  "norm_key": "perplexityai",
+  "aliases": [
+   "Perplexity AI"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2462
+ },
+ {
+  "canonical": "Symfony",
+  "norm_key": "symfony",
+  "aliases": [
+   "Symfony"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2427
+ },
+ {
+  "canonical": "Scala",
+  "norm_key": "scala",
+  "aliases": [
+   "Scala"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2422
+ },
+ {
+  "canonical": "Managed Hosting",
+  "norm_key": "managedhosting",
+  "aliases": [
+   "Managed Hosting"
+  ],
+  "category": "Platform",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2379
+ },
+ {
+  "canonical": "OVH",
+  "norm_key": "ovh",
+  "aliases": [
+   "OVH"
+  ],
+  "category": "Platform",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2378
+ },
+ {
+  "canonical": "Ant",
+  "norm_key": "ant",
+  "aliases": [
+   "Ant"
+  ],
+  "category": "Tool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2371
+ },
+ {
+  "canonical": "DeepSeek General",
+  "norm_key": "deepseekgeneral",
+  "aliases": [
+   "DeepSeek General"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 2363
+ },
+ {
+  "canonical": "Objective-C",
+  "norm_key": "objectivec",
+  "aliases": [
+   "Objective C",
+   "Objective-C"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2310
+ },
+ {
+  "canonical": "RAG",
+  "norm_key": "rag",
+  "aliases": [
+   "RAG"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 2253
+ },
+ {
+  "canonical": "Poetry",
+  "norm_key": "poetry",
+  "aliases": [
+   "Poetry"
+  ],
+  "category": "Platform",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 2213
+ },
+ {
+  "canonical": "Datadog",
+  "norm_key": "datadog",
+  "aliases": [
+   "Datadog"
+  ],
+  "category": "Platform",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 2169
+ },
+ {
+  "canonical": "Pydantic",
+  "norm_key": "pydantic",
+  "aliases": [
+   "Pydantic"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 2161
+ },
+ {
+  "canonical": "Hadoop",
+  "norm_key": "hadoop",
+  "aliases": [
+   "Hadoop"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2155
+ },
+ {
+  "canonical": "Perl",
+  "norm_key": "perl",
+  "aliases": [
+   "Perl"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2151
+ },
+ {
+  "canonical": "Substack",
+  "norm_key": "substack",
+  "aliases": [
+   "Substack"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 2150
+ },
+ {
+  "canonical": "Google Test",
+  "norm_key": "googletest",
+  "aliases": [
+   "Google Test"
+  ],
+  "category": "Tool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2146
+ },
+ {
+  "canonical": "Supabase",
+  "norm_key": "supabase",
+  "aliases": [
+   "Supabase"
+  ],
+  "category": [
+   "Database",
+   "Platform"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2122
+ },
+ {
+  "canonical": "Google Colab",
+  "norm_key": "googlecolab",
+  "aliases": [
+   "Colab",
+   "Google Colab"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 2109
+ },
+ {
+  "canonical": "InfluxDB",
+  "norm_key": "influxdb",
+  "aliases": [
+   "InfluxDB"
+  ],
+  "category": "Database",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2091
+ },
+ {
+  "canonical": "Code::Blocks",
+  "norm_key": "codeblocks",
+  "aliases": [
+   "Code::Blocks"
+  ],
+  "category": "IDE",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2077
+ },
+ {
+  "canonical": "AWS CodeWhisperer",
+  "norm_key": "awscodewhisperer",
+  "aliases": [
+   "AWS CodeWhisperer"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 2071
+ },
+ {
+  "canonical": "Phind",
+  "norm_key": "phind",
+  "aliases": [
+   "Phind"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2067
+ },
+ {
+  "canonical": "Bun",
+  "norm_key": "bun",
+  "aliases": [
+   "Bun"
+  ],
+  "category": [
+   "Platform",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2050
+ },
+ {
+  "canonical": "Hugging Face Transformers",
+  "norm_key": "huggingfacetransformers",
+  "aliases": [
+   "Hugging Face Transformers"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2038
+ },
+ {
+  "canonical": "uv",
+  "norm_key": "uv",
+  "aliases": [
+   "uv"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 2034
+ },
+ {
+  "canonical": "Qt Creator",
+  "norm_key": "qtcreator",
+  "aliases": [
+   "Qt Creator"
+  ],
+  "category": "IDE",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 2031
+ },
+ {
+  "canonical": "Elixir",
+  "norm_key": "elixir",
+  "aliases": [
+   "Elixir"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 2028
+ },
+ {
+  "canonical": "Rad Studio (Delphi, C++ Builder)",
+  "norm_key": "radstudio",
+  "aliases": [
+   "RAD Studio (Delphi, C++ Builder)",
+   "Rad Studio",
+   "Rad Studio (Delphi, C++ Builder)"
+  ],
+  "category": "IDE",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1961
+ },
+ {
+  "canonical": "Ionic",
+  "norm_key": "ionic",
+  "aliases": [
+   "Ionic"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1948
+ },
+ {
+  "canonical": "Redmine",
+  "norm_key": "redmine",
+  "aliases": [
+   "Redmine"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1929
+ },
+ {
+  "canonical": "Cassandra",
+  "norm_key": "cassandra",
+  "aliases": [
+   "Cassandra"
+  ],
+  "category": "Database",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1927
+ },
+ {
+  "canonical": "Zed",
+  "norm_key": "zed",
+  "aliases": [
+   "Zed"
+  ],
+  "category": "IDE",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 1903
+ },
+ {
+  "canonical": "Monday.com",
+  "norm_key": "monday.com",
+  "aliases": [
+   "Monday.com",
+   "monday.com"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1887
+ },
+ {
+  "canonical": "SVN",
+  "norm_key": "svn",
+  "aliases": [
+   "SVN"
+  ],
+  "category": "Tool",
+  "years": [
+   "2022"
+  ],
+  "max_frequency": 1876
+ },
+ {
+  "canonical": "Company forum",
+  "norm_key": "companyforum",
+  "aliases": [
+   "Company forum"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 1858
+ },
+ {
+  "canonical": "Shadcn/ui",
+  "norm_key": "shadcn/ui",
+  "aliases": [
+   "Shadcn",
+   "Shadcn/ui",
+   "ui"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 1854
+ },
+ {
+  "canonical": "X Grok",
+  "norm_key": "xgrok",
+  "aliases": [
+   "X Grok"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 1836
+ },
+ {
+  "canonical": "Haskell",
+  "norm_key": "haskell",
+  "aliases": [
+   "Haskell"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1829
+ },
+ {
+  "canonical": "Snowflake",
+  "norm_key": "snowflake",
+  "aliases": [
+   "Snowflake"
+  ],
+  "category": "Database",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1820
+ },
+ {
+  "canonical": "Stack Overflow for Teams",
+  "norm_key": "stackoverflowforteams",
+  "aliases": [
+   "Stack Overflow for Teams"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1813
+ },
+ {
+  "canonical": "Oracle Cloud Infrastructure (OCI)",
+  "norm_key": "oraclecloudinfrastructure",
+  "aliases": [
+   "Cloud Infrastructure (OCI)",
+   "Oracle Cloud Infrastructure",
+   "Oracle Cloud Infrastructure (OCI)"
+  ],
+  "category": "Platform",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1810
+ },
+ {
+  "canonical": "YouTrack",
+  "norm_key": "youtrack",
+  "aliases": [
+   "YouTrack"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1718
+ },
+ {
+  "canonical": "Mistral",
+  "norm_key": "mistral",
+  "aliases": [
+   "Mistral"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 1710
+ },
+ {
+  "canonical": "Deno",
+  "norm_key": "deno",
+  "aliases": [
+   "Deno"
+  ],
+  "category": [
+   "Tool",
+   "WebFramework"
+  ],
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1697
+ },
+ {
+  "canonical": "GTK",
+  "norm_key": "gtk",
+  "aliases": [
+   "GTK"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1690
+ },
+ {
+  "canonical": "OpenShift",
+  "norm_key": "openshift",
+  "aliases": [
+   "OpenShift"
+  ],
+  "category": "Platform",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1671
+ },
+ {
+  "canonical": "Fly.io",
+  "norm_key": "fly.io",
+  "aliases": [
+   "Fly.io"
+  ],
+  "category": "Platform",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1649
+ },
+ {
+  "canonical": "Nix",
+  "norm_key": "nix",
+  "aliases": [
+   "Nix"
+  ],
+  "category": "Tool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1647
+ },
+ {
+  "canonical": "Fleet",
+  "norm_key": "fleet",
+  "aliases": [
+   "Fleet"
+  ],
+  "category": "IDE",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1642
+ },
+ {
+  "canonical": "Microsoft Planner",
+  "norm_key": "microsoftplanner",
+  "aliases": [
+   "Microsoft Planner",
+   "Planner"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1639
+ },
+ {
+  "canonical": "Lucid (includes Lucidchart)",
+  "norm_key": "lucid",
+  "aliases": [
+   "Lucid",
+   "Lucid (includes Lucidchart)"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1638
+ },
+ {
+  "canonical": "You.com",
+  "norm_key": "you.com",
+  "aliases": [
+   "You.com"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1601
+ },
+ {
+  "canonical": "Htmx",
+  "norm_key": "htmx",
+  "aliases": [
+   "Htmx"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 1591
+ },
+ {
+  "canonical": ".NET MAUI",
+  "norm_key": ".netmaui",
+  "aliases": [
+   ".NET MAUI"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1573
+ },
+ {
+  "canonical": "c++23",
+  "norm_key": "c++23",
+  "aliases": [
+   "c++23"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 1563
+ },
+ {
+  "canonical": "Clojure",
+  "norm_key": "clojure",
+  "aliases": [
+   "Clojure"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1552
+ },
+ {
+  "canonical": "Airtable",
+  "norm_key": "airtable",
+  "aliases": [
+   "Airtable"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1530
+ },
+ {
+  "canonical": "Tauri",
+  "norm_key": "tauri",
+  "aliases": [
+   "Tauri"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1516
+ },
+ {
+  "canonical": "Drupal",
+  "norm_key": "drupal",
+  "aliases": [
+   "Drupal"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1508
+ },
+ {
+  "canonical": "GDScript",
+  "norm_key": "gdscript",
+  "aliases": [
+   "GDScript"
+  ],
+  "category": "Language",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1495
+ },
+ {
+  "canonical": "Linear",
+  "norm_key": "linear",
+  "aliases": [
+   "Linear"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1490
+ },
+ {
+  "canonical": "Fastify",
+  "norm_key": "fastify",
+  "aliases": [
+   "Fastify"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1474
+ },
+ {
+  "canonical": "Meta AI",
+  "norm_key": "metaai",
+  "aliases": [
+   "Meta AI"
+  ],
+  "category": "AITool",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 1472
+ },
+ {
+  "canonical": "Phoenix",
+  "norm_key": "phoenix",
+  "aliases": [
+   "Phoenix"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1468
+ },
+ {
+  "canonical": "Astro",
+  "norm_key": "astro",
+  "aliases": [
+   "Astro"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1462
+ },
+ {
+  "canonical": "IBM DB2",
+  "norm_key": "ibmdb2",
+  "aliases": [
+   "DB2",
+   "IBM DB2"
+  ],
+  "category": "Database",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1438
+ },
+ {
+  "canonical": "Neo4J",
+  "norm_key": "neo4j",
+  "aliases": [
+   "Neo4J",
+   "Neo4j"
+  ],
+  "category": "Database",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1432
+ },
+ {
+  "canonical": "Rocketchat",
+  "norm_key": "rocketchat",
+  "aliases": [
+   "Rocketchat"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1415
+ },
+ {
+  "canonical": "Helix",
+  "norm_key": "helix",
+  "aliases": [
+   "Helix"
+  ],
+  "category": "IDE",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1391
+ },
+ {
+  "canonical": "IBM Cloud",
+  "norm_key": "ibmcloud",
+  "aliases": [
+   "IBM Cloud",
+   "IBM Cloud Or Watson",
+   "IBM Cloud or Watson"
+  ],
+  "category": "Platform",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1373
+ },
+ {
+  "canonical": "Kate",
+  "norm_key": "kate",
+  "aliases": [
+   "Kate"
+  ],
+  "category": "IDE",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1367
+ },
+ {
+  "canonical": "Vultr",
+  "norm_key": "vultr",
+  "aliases": [
+   "Vultr"
+  ],
+  "category": "Platform",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1357
+ },
+ {
+  "canonical": "Ruff",
+  "norm_key": "ruff",
+  "aliases": [
+   "Ruff"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 1355
+ },
+ {
+  "canonical": "PlatformIO",
+  "norm_key": "platformio",
+  "aliases": [
+   "PlatformIO"
+  ],
+  "category": "Embedded",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 1348
+ },
+ {
+  "canonical": "Lisp",
+  "norm_key": "lisp",
+  "aliases": [
+   "LISP",
+   "Lisp"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1342
+ },
+ {
+  "canonical": "Puppet",
+  "norm_key": "puppet",
+  "aliases": [
+   "Puppet"
+  ],
+  "category": "Tool",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1313
+ },
+ {
+  "canonical": "Render",
+  "norm_key": "render",
+  "aliases": [
+   "Render"
+  ],
+  "category": "Platform",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1305
+ },
+ {
+  "canonical": "Kaggle",
+  "norm_key": "kaggle",
+  "aliases": [
+   "Kaggle"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 1298
+ },
+ {
+  "canonical": "Windsurf",
+  "norm_key": "windsurf",
+  "aliases": [
+   "Windsurf"
+  ],
+  "category": "IDE",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 1274
+ },
+ {
+  "canonical": "Spyder",
+  "norm_key": "spyder",
+  "aliases": [
+   "Spyder"
+  ],
+  "category": "IDE",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1273
+ },
+ {
+  "canonical": "Perplexity Sonar",
+  "norm_key": "perplexitysonar",
+  "aliases": [
+   "Perplexity Sonar"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 1248
+ },
+ {
+  "canonical": "CodeIgniter",
+  "norm_key": "codeigniter",
+  "aliases": [
+   "CodeIgniter"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1238
+ },
+ {
+  "canonical": "RubyMine",
+  "norm_key": "rubymine",
+  "aliases": [
+   "RubyMine"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1219
+ },
+ {
+  "canonical": "Amazon Q",
+  "norm_key": "amazonq",
+  "aliases": [
+   "Amazon Q"
+  ],
+  "category": "AITool",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 1202
+ },
+ {
+  "canonical": "Solr",
+  "norm_key": "solr",
+  "aliases": [
+   "Solr"
+  ],
+  "category": "Database",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1189
+ },
+ {
+  "canonical": "Solidity",
+  "norm_key": "solidity",
+  "aliases": [
+   "Solidity"
+  ],
+  "category": "Language",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1168
+ },
+ {
+  "canonical": "Basecamp",
+  "norm_key": "basecamp",
+  "aliases": [
+   "Basecamp"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1156
+ },
+ {
+  "canonical": "Firebird",
+  "norm_key": "firebird",
+  "aliases": [
+   "Firebird"
+  ],
+  "category": "Database",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1152
+ },
+ {
+  "canonical": "Capacitor",
+  "norm_key": "capacitor",
+  "aliases": [
+   "Capacitor"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1127
+ },
+ {
+  "canonical": "Zulip",
+  "norm_key": "zulip",
+  "aliases": [
+   "Zulip"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1116
+ },
+ {
+  "canonical": "Couchbase",
+  "norm_key": "couchbase",
+  "aliases": [
+   "Couchbase"
+  ],
+  "category": "Database",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1106
+ },
+ {
+  "canonical": "Splunk",
+  "norm_key": "splunk",
+  "aliases": [
+   "Splunk"
+  ],
+  "category": "Platform",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 1102
+ },
+ {
+  "canonical": "OpenStack",
+  "norm_key": "openstack",
+  "aliases": [
+   "OpenStack"
+  ],
+  "category": "Platform",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1076
+ },
+ {
+  "canonical": "Julia",
+  "norm_key": "julia",
+  "aliases": [
+   "Julia"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1068
+ },
+ {
+  "canonical": "Meson",
+  "norm_key": "meson",
+  "aliases": [
+   "Meson"
+  ],
+  "category": [
+   "Embedded",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1052
+ },
+ {
+  "canonical": "Tidyverse",
+  "norm_key": "tidyverse",
+  "aliases": [
+   "Tidyverse"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 1045
+ },
+ {
+  "canonical": "Databricks SQL",
+  "norm_key": "databrickssql",
+  "aliases": [
+   "Databricks SQL"
+  ],
+  "category": "Database",
+  "years": [
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 1003
+ },
+ {
+  "canonical": "Amazon Bedrock",
+  "norm_key": "amazonbedrock",
+  "aliases": [
+   "Amazon Bedrock",
+   "Bedrock"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 993
+ },
+ {
+  "canonical": "QMake",
+  "norm_key": "qmake",
+  "aliases": [
+   "QMake"
+  ],
+  "category": [
+   "Embedded",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 983
+ },
+ {
+  "canonical": "Chef",
+  "norm_key": "chef",
+  "aliases": [
+   "Chef"
+  ],
+  "category": "Tool",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 982
+ },
+ {
+  "canonical": "Solid.js",
+  "norm_key": "solid.js",
+  "aliases": [
+   "Solid.js"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 979
+ },
+ {
+  "canonical": "MicroPython",
+  "norm_key": "micropython",
+  "aliases": [
+   "MicroPython"
+  ],
+  "category": "Language",
+  "years": [
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 942
+ },
+ {
+  "canonical": "New Relic",
+  "norm_key": "newrelic",
+  "aliases": [
+   "New Relic"
+  ],
+  "category": "Platform",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 934
+ },
+ {
+  "canonical": "Flow",
+  "norm_key": "flow",
+  "aliases": [
+   "Flow"
+  ],
+  "category": [
+   "Language",
+   "Tool"
+  ],
+  "years": [
+   "2021",
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 929
+ },
+ {
+  "canonical": "Databricks",
+  "norm_key": "databricks",
+  "aliases": [
+   "Databricks"
+  ],
+  "category": "Platform",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 918
+ },
+ {
+  "canonical": "Remix",
+  "norm_key": "remix",
+  "aliases": [
+   "Remix"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 912
+ },
+ {
+  "canonical": "PythonAnywhere",
+  "norm_key": "pythonanywhere",
+  "aliases": [
+   "PythonAnywhere"
+  ],
+  "category": "Platform",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 892
+ },
+ {
+  "canonical": "Clickhouse",
+  "norm_key": "clickhouse",
+  "aliases": [
+   "Clickhouse"
+  ],
+  "category": "Database",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 890
+ },
+ {
+  "canonical": "Couch DB",
+  "norm_key": "couchdb",
+  "aliases": [
+   "Couch DB",
+   "CouchDB"
+  ],
+  "category": "Database",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 887
+ },
+ {
+  "canonical": "DirectX",
+  "norm_key": "directx",
+  "aliases": [
+   "DirectX"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 879
+ },
+ {
+  "canonical": "Erlang",
+  "norm_key": "erlang",
+  "aliases": [
+   "Erlang"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 868
+ },
+ {
+  "canonical": "Dagger",
+  "norm_key": "dagger",
+  "aliases": [
+   "Dagger"
+  ],
+  "category": "Tool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 866
+ },
+ {
+  "canonical": "Alibaba Qwen",
+  "norm_key": "alibabaqwen",
+  "aliases": [
+   "Alibaba Qwen"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 864
+ },
+ {
+  "canonical": "DuckDB",
+  "norm_key": "duckdb",
+  "aliases": [
+   "DuckDB"
+  ],
+  "category": "Database",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 861
+ },
+ {
+  "canonical": "F#",
+  "norm_key": "f#",
+  "aliases": [
+   "F#"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 849
+ },
+ {
+  "canonical": "RustRover",
+  "norm_key": "rustrover",
+  "aliases": [
+   "RustRover"
+  ],
+  "category": "IDE",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 848
+ },
+ {
+  "canonical": "Geany",
+  "norm_key": "geany",
+  "aliases": [
+   "Geany"
+  ],
+  "category": "IDE",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 841
+ },
+ {
+  "canonical": "Fortran",
+  "norm_key": "fortran",
+  "aliases": [
+   "Fortran"
+  ],
+  "category": "Language",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 833
+ },
+ {
+  "canonical": "Microsoft Phi-4 models",
+  "norm_key": "microsoftphi4models",
+  "aliases": [
+   "Microsoft Phi-4 models",
+   "Phi-4 models"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 831
+ },
+ {
+  "canonical": "Strapi",
+  "norm_key": "strapi",
+  "aliases": [
+   "Strapi"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 815
+ },
+ {
+  "canonical": "Polars",
+  "norm_key": "polars",
+  "aliases": [
+   "Polars"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 811
+ },
+ {
+  "canonical": "Cockroachdb",
+  "norm_key": "cockroachdb",
+  "aliases": [
+   "Cockroachdb"
+  ],
+  "category": "Database",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 795
+ },
+ {
+  "canonical": "OpenCL",
+  "norm_key": "opencl",
+  "aliases": [
+   "OpenCL"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 785
+ },
+ {
+  "canonical": "Prolog",
+  "norm_key": "prolog",
+  "aliases": [
+   "Prolog"
+  ],
+  "category": "Language",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 776
+ },
+ {
+  "canonical": "Quarkus",
+  "norm_key": "quarkus",
+  "aliases": [
+   "Quarkus"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 763
+ },
+ {
+  "canonical": "Roslyn",
+  "norm_key": "roslyn",
+  "aliases": [
+   "Roslyn"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 755
+ },
+ {
+  "canonical": "Microsoft Lists",
+  "norm_key": "microsoftlists",
+  "aliases": [
+   "Lists",
+   "Microsoft Lists"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 747
+ },
+ {
+  "canonical": "Ktor",
+  "norm_key": "ktor",
+  "aliases": [
+   "Ktor"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 740
+ },
+ {
+  "canonical": "Smartsheet",
+  "norm_key": "smartsheet",
+  "aliases": [
+   "Smartsheet"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 731
+ },
+ {
+  "canonical": "Zig",
+  "norm_key": "zig",
+  "aliases": [
+   "Zig"
+  ],
+  "category": "Language",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 729
+ },
+ {
+  "canonical": "BBEdit",
+  "norm_key": "bbedit",
+  "aliases": [
+   "BBEdit"
+  ],
+  "category": "IDE",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 722
+ },
+ {
+  "canonical": "Shortcut",
+  "norm_key": "shortcut",
+  "aliases": [
+   "Shortcut"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 687
+ },
+ {
+  "canonical": "TextMate",
+  "norm_key": "textmate",
+  "aliases": [
+   "TextMate"
+  ],
+  "category": "IDE",
+  "years": [
+   "2021",
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 678
+ },
+ {
+  "canonical": "Ada",
+  "norm_key": "ada",
+  "aliases": [
+   "Ada"
+  ],
+  "category": "Language",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 677
+ },
+ {
+  "canonical": "MFC",
+  "norm_key": "mfc",
+  "aliases": [
+   "MFC"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 671
+ },
+ {
+  "canonical": "Axum",
+  "norm_key": "axum",
+  "aliases": [
+   "Axum"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 669
+ },
+ {
+  "canonical": "Catch2",
+  "norm_key": "catch2",
+  "aliases": [
+   "Catch2"
+  ],
+  "category": [
+   "Embedded",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 663
+ },
+ {
+  "canonical": "Pulumi",
+  "norm_key": "pulumi",
+  "aliases": [
+   "Pulumi"
+  ],
+  "category": "Tool",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 659
+ },
+ {
+  "canonical": "Quora Poe",
+  "norm_key": "quorapoe",
+  "aliases": [
+   "Quora Poe"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 643
+ },
+ {
+  "canonical": "JAX",
+  "norm_key": "jax",
+  "aliases": [
+   "JAX"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 641
+ },
+ {
+  "canonical": "LangGraph",
+  "norm_key": "langgraph",
+  "aliases": [
+   "LangGraph"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 640
+ },
+ {
+  "canonical": "Valkey",
+  "norm_key": "valkey",
+  "aliases": [
+   "Valkey"
+  ],
+  "category": "Database",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 632
+ },
+ {
+  "canonical": "Scaleway",
+  "norm_key": "scaleway",
+  "aliases": [
+   "Scaleway"
+  ],
+  "category": "Platform",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 628
+ },
+ {
+  "canonical": "Lovable.dev",
+  "norm_key": "lovable.dev",
+  "aliases": [
+   "Lovable.dev"
+  ],
+  "category": "IDE",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 623
+ },
+ {
+  "canonical": "OCaml",
+  "norm_key": "ocaml",
+  "aliases": [
+   "OCaml"
+  ],
+  "category": "Language",
+  "years": [
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 614
+ },
+ {
+  "canonical": "Cody",
+  "norm_key": "cody",
+  "aliases": [
+   "Cody"
+  ],
+  "category": "AITool",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 610
+ },
+ {
+  "canonical": "Amazon Redshift",
+  "norm_key": "amazonredshift",
+  "aliases": [
+   "Amazon Redshift",
+   "Redshift"
+  ],
+  "category": "Database",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 610
+ },
+ {
+  "canonical": "OpenAI Codex",
+  "norm_key": "openaicodex",
+  "aliases": [
+   "OpenAI Codex"
+  ],
+  "category": "AITool",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 599
+ },
+ {
+  "canonical": "Bolt",
+  "norm_key": "bolt",
+  "aliases": [
+   "Bolt"
+  ],
+  "category": "IDE",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 599
+ },
+ {
+  "canonical": "hostinger",
+  "norm_key": "hostinger",
+  "aliases": [
+   "hostinger"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 595
+ },
+ {
+  "canonical": "Elm",
+  "norm_key": "elm",
+  "aliases": [
+   "Elm"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 580
+ },
+ {
+  "canonical": "Apex",
+  "norm_key": "apex",
+  "aliases": [
+   "Apex"
+  ],
+  "category": "Language",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 579
+ },
+ {
+  "canonical": "COBOL",
+  "norm_key": "cobol",
+  "aliases": [
+   "COBOL",
+   "Cobol"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 576
+ },
+ {
+  "canonical": "Cline and/or Roo",
+  "norm_key": "clineand/orroo",
+  "aliases": [
+   "Cline and",
+   "Cline and/or Roo",
+   "or Roo"
+  ],
+  "category": "IDE",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 574
+ },
+ {
+  "canonical": "Micro",
+  "norm_key": "micro",
+  "aliases": [
+   "Micro"
+  ],
+  "category": "IDE",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 551
+ },
+ {
+  "canonical": "Alibaba Cloud",
+  "norm_key": "alibabacloud",
+  "aliases": [
+   "Alibaba Cloud"
+  ],
+  "category": "Platform",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 548
+ },
+ {
+  "canonical": "Play Framework",
+  "norm_key": "playframework",
+  "aliases": [
+   "Play Framework"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 545
+ },
+ {
+  "canonical": "Synk Code",
+  "norm_key": "synkcode",
+  "aliases": [
+   "Synk Code"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 538
+ },
+ {
+  "canonical": "APL",
+  "norm_key": "apl",
+  "aliases": [
+   "APL"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 536
+ },
+ {
+  "canonical": "mlflow",
+  "norm_key": "mlflow",
+  "aliases": [
+   "mlflow"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 531
+ },
+ {
+  "canonical": "Microsoft Fabric",
+  "norm_key": "microsoftfabric",
+  "aliases": [
+   "Fabric",
+   "Microsoft Fabric"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 515
+ },
+ {
+  "canonical": "Aider",
+  "norm_key": "aider",
+  "aliases": [
+   "Aider"
+  ],
+  "category": "IDE",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 504
+ },
+ {
+  "canonical": "Colocation",
+  "norm_key": "colocation",
+  "aliases": [
+   "Colocation"
+  ],
+  "category": "Platform",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 497
+ },
+ {
+  "canonical": "Lit",
+  "norm_key": "lit",
+  "aliases": [
+   "Lit"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 490
+ },
+ {
+  "canonical": "Whispr AI",
+  "norm_key": "whisprai",
+  "aliases": [
+   "Whispr AI"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 476
+ },
+ {
+  "canonical": "Crystal",
+  "norm_key": "crystal",
+  "aliases": [
+   "Crystal"
+  ],
+  "category": "Language",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 466
+ },
+ {
+  "canonical": "Yii 2",
+  "norm_key": "yii2",
+  "aliases": [
+   "Yii 2"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 454
+ },
+ {
+  "canonical": "Odoo",
+  "norm_key": "odoo",
+  "aliases": [
+   "Odoo"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 454
+ },
+ {
+  "canonical": "Ringcentral",
+  "norm_key": "ringcentral",
+  "aliases": [
+   "RingCentral",
+   "Ringcentral"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 445
+ },
+ {
+  "canonical": "Micronaut",
+  "norm_key": "micronaut",
+  "aliases": [
+   "Micronaut"
+  ],
+  "category": [
+   "Embedded",
+   "Library/Framework"
+  ],
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 441
+ },
+ {
+  "canonical": "Wasmer",
+  "norm_key": "wasmer",
+  "aliases": [
+   "Wasmer"
+  ],
+  "category": "Tool",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 431
+ },
+ {
+  "canonical": "SAS",
+  "norm_key": "sas",
+  "aliases": [
+   "SAS"
+  ],
+  "category": "Language",
+  "years": [
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 427
+ },
+ {
+  "canonical": "cppunit",
+  "norm_key": "cppunit",
+  "aliases": [
+   "cppunit"
+  ],
+  "category": [
+   "Embedded",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 406
+ },
+ {
+  "canonical": "Delphi 12+ Athens",
+  "norm_key": "delphi12+athens",
+  "aliases": [
+   "Delphi 12+ Athens"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 406
+ },
+ {
+  "canonical": "Mercurial",
+  "norm_key": "mercurial",
+  "aliases": [
+   "Mercurial"
+  ],
+  "category": "Tool",
+  "years": [
+   "2022"
+  ],
+  "max_frequency": 405
+ },
+ {
+  "canonical": "doctest",
+  "norm_key": "doctest",
+  "aliases": [
+   "doctest"
+  ],
+  "category": [
+   "Embedded",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 393
+ },
+ {
+  "canonical": "Snyk Code",
+  "norm_key": "snykcode",
+  "aliases": [
+   "Snyk Code"
+  ],
+  "category": "AITool",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 392
+ },
+ {
+  "canonical": "Qwik",
+  "norm_key": "qwik",
+  "aliases": [
+   "Qwik"
+  ],
+  "category": "WebFramework",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 389
+ },
+ {
+  "canonical": "SCons",
+  "norm_key": "scons",
+  "aliases": [
+   "SCons"
+  ],
+  "category": [
+   "Embedded",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 378
+ },
+ {
+  "canonical": "Wrike",
+  "norm_key": "wrike",
+  "aliases": [
+   "Wrike"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 373
+ },
+ {
+  "canonical": "bandit",
+  "norm_key": "bandit",
+  "aliases": [
+   "bandit"
+  ],
+  "category": "Tool",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 362
+ },
+ {
+  "canonical": "Adobe Workfront",
+  "norm_key": "adobeworkfront",
+  "aliases": [
+   "Adobe Workfront",
+   "Workfront"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 360
+ },
+ {
+  "canonical": "Railway",
+  "norm_key": "railway",
+  "aliases": [
+   "Railway"
+  ],
+  "category": "Platform",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 359
+ },
+ {
+  "canonical": "Uno Platform",
+  "norm_key": "unoplatform",
+  "aliases": [
+   "Uno Platform"
+  ],
+  "category": "Library/Framework",
+  "years": [
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 357
+ },
+ {
+  "canonical": "Gleam",
+  "norm_key": "gleam",
+  "aliases": [
+   "Gleam"
+  ],
+  "category": "Language",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 353
+ },
+ {
+  "canonical": "SwiftData",
+  "norm_key": "swiftdata",
+  "aliases": [
+   "SwiftData"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 353
+ },
+ {
+  "canonical": "Hashnode",
+  "norm_key": "hashnode",
+  "aliases": [
+   "Hashnode"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 350
+ },
+ {
+  "canonical": "Boost.Test",
+  "norm_key": "boost.test",
+  "aliases": [
+   "Boost.Test"
+  ],
+  "category": [
+   "Embedded",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 342
+ },
+ {
+  "canonical": "Symphony",
+  "norm_key": "symphony",
+  "aliases": [
+   "Symphony"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 340
+ },
+ {
+  "canonical": "Replit Ghostwriter",
+  "norm_key": "replitghostwriter",
+  "aliases": [
+   "Replit Ghostwriter"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 335
+ },
+ {
+  "canonical": "Nim",
+  "norm_key": "nim",
+  "aliases": [
+   "Nim"
+  ],
+  "category": "Language",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 331
+ },
+ {
+  "canonical": "Presto",
+  "norm_key": "presto",
+  "aliases": [
+   "Presto"
+  ],
+  "category": "Database",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 323
+ },
+ {
+  "canonical": "Coda",
+  "norm_key": "coda",
+  "aliases": [
+   "Coda"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 306
+ },
+ {
+  "canonical": "Neeva AI",
+  "norm_key": "neevaai",
+  "aliases": [
+   "Neeva AI"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 289
+ },
+ {
+  "canonical": "Amazon Titan models",
+  "norm_key": "amazontitanmodels",
+  "aliases": [
+   "Amazon Titan models",
+   "Titan models"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 282
+ },
+ {
+  "canonical": "Wire",
+  "norm_key": "wire",
+  "aliases": [
+   "Wire"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 264
+ },
+ {
+  "canonical": "Pocketbase",
+  "norm_key": "pocketbase",
+  "aliases": [
+   "Pocketbase"
+  ],
+  "category": "Database",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 262
+ },
+ {
+  "canonical": "Ultralytics",
+  "norm_key": "ultralytics",
+  "aliases": [
+   "Ultralytics"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 254
+ },
+ {
+  "canonical": "Nova",
+  "norm_key": "nova",
+  "aliases": [
+   "Nova"
+  ],
+  "category": "IDE",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 250
+ },
+ {
+  "canonical": "Datomic",
+  "norm_key": "datomic",
+  "aliases": [
+   "Datomic"
+  ],
+  "category": "Database",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 244
+ },
+ {
+  "canonical": "RavenDB",
+  "norm_key": "ravendb",
+  "aliases": [
+   "RavenDB"
+  ],
+  "category": "Database",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 227
+ },
+ {
+  "canonical": "ZMK",
+  "norm_key": "zmk",
+  "aliases": [
+   "ZMK"
+  ],
+  "category": "Embedded",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 227
+ },
+ {
+  "canonical": "Trae",
+  "norm_key": "trae",
+  "aliases": [
+   "Trae"
+  ],
+  "category": "IDE",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 219
+ },
+ {
+  "canonical": "Redocly",
+  "norm_key": "redocly",
+  "aliases": [
+   "Redocly"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 216
+ },
+ {
+  "canonical": "Wickr",
+  "norm_key": "wickr",
+  "aliases": [
+   "Wickr"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 214
+ },
+ {
+  "canonical": "Mintlify",
+  "norm_key": "mintlify",
+  "aliases": [
+   "Mintlify"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 211
+ },
+ {
+  "canonical": "Spacemacs",
+  "norm_key": "spacemacs",
+  "aliases": [
+   "Spacemacs"
+  ],
+  "category": "IDE",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 204
+ },
+ {
+  "canonical": "Andi",
+  "norm_key": "andi",
+  "aliases": [
+   "Andi"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 193
+ },
+ {
+  "canonical": "visionOS",
+  "norm_key": "visionos",
+  "aliases": [
+   "visionOS"
+  ],
+  "category": "Topic",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 185
+ },
+ {
+  "canonical": "Zephyr",
+  "norm_key": "zephyr",
+  "aliases": [
+   "Zephyr"
+  ],
+  "category": "Language",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 184
+ },
+ {
+  "canonical": "Document360",
+  "norm_key": "document360",
+  "aliases": [
+   "Document360"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 177
+ },
+ {
+  "canonical": "Nuclino",
+  "norm_key": "nuclino",
+  "aliases": [
+   "Nuclino"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 177
+ },
+ {
+  "canonical": "Adrenaline",
+  "norm_key": "adrenaline",
+  "aliases": [
+   "Adrenaline"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 174
+ },
+ {
+  "canonical": "Yandex Cloud",
+  "norm_key": "yandexcloud",
+  "aliases": [
+   "Yandex Cloud"
+  ],
+  "category": "Platform",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 165
+ },
+ {
+  "canonical": "EventStoreDB",
+  "norm_key": "eventstoredb",
+  "aliases": [
+   "EventStoreDB"
+  ],
+  "category": "Database",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 162
+ },
+ {
+  "canonical": "build2",
+  "norm_key": "build2",
+  "aliases": [
+   "build2"
+  ],
+  "category": [
+   "Embedded",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 159
+ },
+ {
+  "canonical": "Lightning AI",
+  "norm_key": "lightningai",
+  "aliases": [
+   "Lightning AI"
+  ],
+  "category": "AITool",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 158
+ },
+ {
+  "canonical": "TiDB",
+  "norm_key": "tidb",
+  "aliases": [
+   "TiDB"
+  ],
+  "category": "Database",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 157
+ },
+ {
+  "canonical": "Raku",
+  "norm_key": "raku",
+  "aliases": [
+   "Raku"
+  ],
+  "category": "Language",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 156
+ },
+ {
+  "canonical": "condo",
+  "norm_key": "condo",
+  "aliases": [
+   "condo"
+  ],
+  "category": "IDE",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 152
+ },
+ {
+  "canonical": "Rubber Duck.AI",
+  "norm_key": "rubberduck.ai",
+  "aliases": [
+   "Rubber Duck.AI"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 151
+ },
+ {
+  "canonical": "BSD",
+  "norm_key": "bsd",
+  "aliases": [
+   "BSD"
+  ],
+  "category": "OS",
+  "years": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 146
+ },
+ {
+  "canonical": "Mojo",
+  "norm_key": "mojo",
+  "aliases": [
+   "Mojo"
+  ],
+  "category": "Language",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 144
+ },
+ {
+  "canonical": "Cohere: Command A",
+  "norm_key": "coherecommanda",
+  "aliases": [
+   "Cohere: Command A"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 139
+ },
+ {
+  "canonical": "AskCodi",
+  "norm_key": "askcodi",
+  "aliases": [
+   "AskCodi"
+  ],
+  "category": "AITool",
+  "years": [
+   "2024"
+  ],
+  "max_frequency": 130
+ },
+ {
+  "canonical": "Metaphor",
+  "norm_key": "metaphor",
+  "aliases": [
+   "Metaphor"
+  ],
+  "category": "AITool",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 126
+ },
+ {
+  "canonical": "Swit",
+  "norm_key": "swit",
+  "aliases": [
+   "Swit"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 114
+ },
+ {
+  "canonical": "Dingtalk (Teambition)",
+  "norm_key": "dingtalk",
+  "aliases": [
+   "DingTalk (Teambition)",
+   "Dingtalk",
+   "Dingtalk (Teambition)"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 112
+ },
+ {
+  "canonical": "CUTE",
+  "norm_key": "cute",
+  "aliases": [
+   "CUTE"
+  ],
+  "category": [
+   "Embedded",
+   "Tool"
+  ],
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 99
+ },
+ {
+  "canonical": "Tettra",
+  "norm_key": "tettra",
+  "aliases": [
+   "Tettra"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 97
+ },
+ {
+  "canonical": "Workzone",
+  "norm_key": "workzone",
+  "aliases": [
+   "Workzone"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 92
+ },
+ {
+  "canonical": "Unify Circuit",
+  "norm_key": "unifycircuit",
+  "aliases": [
+   "Unify Circuit"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 83
+ },
+ {
+  "canonical": "Planview Projectplace Or Clarizen",
+  "norm_key": "planviewprojectplaceorclarizen",
+  "aliases": [
+   "Planview Projectplace Or Clarizen",
+   "Planview Projectplace or Clarizen"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 81
+ },
+ {
+  "canonical": "tunit",
+  "norm_key": "tunit",
+  "aliases": [
+   "tunit"
+  ],
+  "category": "Tool",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 69
+ },
+ {
+  "canonical": "Coolfire Core",
+  "norm_key": "coolfirecore",
+  "aliases": [
+   "Coolfire Core"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 68
+ },
+ {
+  "canonical": "Wimi",
+  "norm_key": "wimi",
+  "aliases": [
+   "Wimi"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 57
+ },
+ {
+  "canonical": "Reka (Flash 3 or other Reka models)",
+  "norm_key": "reka",
+  "aliases": [
+   "Reka",
+   "Reka (Flash 3 or other Reka models)"
+  ],
+  "category": "AIModel",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 57
+ },
+ {
+  "canonical": "lest",
+  "norm_key": "lest",
+  "aliases": [
+   "lest"
+  ],
+  "category": "Tool",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 55
+ },
+ {
+  "canonical": "snitch",
+  "norm_key": "snitch",
+  "aliases": [
+   "snitch"
+  ],
+  "category": "Tool",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 55
+ },
+ {
+  "canonical": "Cerri",
+  "norm_key": "cerri",
+  "aliases": [
+   "Cerri"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 53
+ },
+ {
+  "canonical": "ELFspy",
+  "norm_key": "elfspy",
+  "aliases": [
+   "ELFspy"
+  ],
+  "category": "Tool",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 51
+ },
+ {
+  "canonical": "Leankor",
+  "norm_key": "leankor",
+  "aliases": [
+   "Leankor"
+  ],
+  "category": "Collaboration",
+  "years": [
+   "2022",
+   "2023"
+  ],
+  "max_frequency": 46
+ },
+ {
+  "canonical": "liblittletest",
+  "norm_key": "liblittletest",
+  "aliases": [
+   "liblittletest"
+  ],
+  "category": "Tool",
+  "years": [
+   "2023"
+  ],
+  "max_frequency": 37
+ },
+ {
+  "canonical": "Ubuntu",
+  "norm_key": "ubuntu",
+  "aliases": [
+   "Ubuntu"
+  ],
+  "category": "OS",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 0
+ },
+ {
+  "canonical": "Android",
+  "norm_key": "android",
+  "aliases": [
+   "Android"
+  ],
+  "category": "OS",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 0
+ },
+ {
+  "canonical": "iOS",
+  "norm_key": "ios",
+  "aliases": [
+   "iOS"
+  ],
+  "category": "OS",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 0
+ },
+ {
+  "canonical": "Debian",
+  "norm_key": "debian",
+  "aliases": [
+   "Debian"
+  ],
+  "category": "OS",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 0
+ },
+ {
+  "canonical": "Arch",
+  "norm_key": "arch",
+  "aliases": [
+   "Arch"
+  ],
+  "category": "OS",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 0
+ },
+ {
+  "canonical": "iPadOS",
+  "norm_key": "ipados",
+  "aliases": [
+   "iPadOS"
+  ],
+  "category": "OS",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 0
+ },
+ {
+  "canonical": "Red Hat",
+  "norm_key": "redhat",
+  "aliases": [
+   "Red Hat"
+  ],
+  "category": "OS",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 0
+ },
+ {
+  "canonical": "Fedora",
+  "norm_key": "fedora",
+  "aliases": [
+   "Fedora"
+  ],
+  "category": "OS",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 0
+ },
+ {
+  "canonical": "ChromeOS",
+  "norm_key": "chromeos",
+  "aliases": [
+   "ChromeOS"
+  ],
+  "category": "OS",
+  "years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "max_frequency": 0
+ },
+ {
+  "canonical": "Cygwin",
+  "norm_key": "cygwin",
+  "aliases": [
+   "Cygwin"
+  ],
+  "category": "OS",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 0
+ },
+ {
+  "canonical": "AIX",
+  "norm_key": "aix",
+  "aliases": [
+   "AIX"
+  ],
+  "category": "OS",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 0
+ },
+ {
+  "canonical": "Solaris",
+  "norm_key": "solaris",
+  "aliases": [
+   "Solaris"
+  ],
+  "category": "OS",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 0
+ },
+ {
+  "canonical": "Haiku",
+  "norm_key": "haiku",
+  "aliases": [
+   "Haiku"
+  ],
+  "category": "OS",
+  "years": [
+   "2023",
+   "2024"
+  ],
+  "max_frequency": 0
+ },
+ {
+  "canonical": "NixOS",
+  "norm_key": "nixos",
+  "aliases": [
+   "NixOS"
+  ],
+  "category": "OS",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 0
+ },
+ {
+  "canonical": "Pop!_OS",
+  "norm_key": "popos",
+  "aliases": [
+   "Pop!_OS"
+  ],
+  "category": "OS",
+  "years": [
+   "2025"
+  ],
+  "max_frequency": 0
+ }
+]

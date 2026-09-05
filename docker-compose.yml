@@ -1,0 +1,26 @@
+# Run with: docker compose up --build
+#
+# On Windows with Docker Desktop (WSL2 backend), both services publish onto
+# the host's localhost, so the browser reaches the API directly at
+# http://localhost:8000 regardless of the compose network's internal DNS.
+
+services:
+  api:
+    build: ./api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./web
+      args:
+        # Baked in at build time — see the comment in web/Dockerfile. If you
+        # change this, you must rebuild (docker compose build web), not just
+        # restart the container.
+        NEXT_PUBLIC_API_URL: http://localhost:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+    restart: unless-stopped
