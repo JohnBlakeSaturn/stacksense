@@ -116,9 +116,7 @@ against the deployed config (α=0.9, resource-alloc, test split):
 | column | — | — | — | — |
 | **row + column** | **0.1951** | **0.2957** | 0.4171 | 0.1335 |
 
-*(fill in the first three rows once `norm_none_a09_test.json` /
-`norm_row_a09_test.json` / `norm_col_a09_test.json` finish running — the
-commands are already in the pipeline notes)*
+*to be filled*
 
 ## What didn't work
 
@@ -224,6 +222,4 @@ Each step writes into `vocab/`, `graph/`, `embeddings/`, or `insights/`.
 
 This repo ships the reproducible core pipeline. Left out: exploratory
 ablation scripts (LoRA fine-tuning sweep, SEAL, heterogeneous-graph GAT
-training, community detection) whose findings are summarised above rather
-than re-run on every clone — and a private resume-to-offer benchmarking
-dataset that isn't public.
+training, community detection) whose findings are summarised above.
