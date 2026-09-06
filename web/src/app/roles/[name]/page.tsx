@@ -1,15 +1,12 @@
-/* The role name is route state; rerun analysis only when that state changes. */
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable react-hooks/set-state-in-effect */
 "use client";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import SkillInput, { type Chip } from "@/components/SkillInput";
 import SupportBar from "@/components/SupportBar";
 import SeniorityToggle from "@/components/SeniorityToggle";
 import MechanismBadge from "@/components/MechanismBadge";
 import LiftScatter from "@/components/LiftScatter";
-import { api, fallback, type Role, type SkillRef } from "@/lib/api";
+import { api, type Role, type SkillRef } from "@/lib/api";
 type Gap = {
   role: string;
   postings_analysed: number;
@@ -27,43 +24,26 @@ export default function RolePage() {
   ]);
   const [role, setRole] = useState<Role | undefined>();
   const [data, setData] = useState<Gap | null>(null);
-  const [level, setLevel] = useState("mid");
-  const [preview, setPreview] = useState(false);
+  const [level, setLevel] = useState("all");
+  const [submitted, setSubmitted] = useState(["Python", "SQL"]);
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState("");
   useEffect(() => {
-    api
-      .roles()
-      .then((r) => setRole(r.roles.find((x) => x.name === name)))
-      .catch(() => {
-        setRole(fallback.roles.find((x) => x.name === name));
-        setPreview(true);
-      });
+    let cancelled = false;
+    api.roles().then(r => { if (!cancelled) setRole(r.roles.find(x => x.name === name)); }).catch(() => {});
+    return () => { cancelled = true; };
   }, [name]);
-  async function analyse() {
-    const skills = chips.map((c) => c.canonical ?? c.input);
-    try {
-      setData(await api.gap(skills, name));
-      setPreview(false);
-    } catch {
-      /* FALLBACK: visible sample data verifies the full gap-analysis UI without a server. */ setData(
-        fallback.gap(skills, name),
-      );
-      setPreview(true);
-    }
-  }
   useEffect(() => {
-    void analyse();
-  }, [name]);
-  const atLevel = (x: SkillRef) => ({
-    ...x,
-    support: x.by_seniority?.[level] ?? x.support,
-  });
-  const scatter = useMemo(
-    () =>
-      data
-        ? { held: data.you_have.map(atLevel), gaps: data.gaps.map(atLevel) }
-        : { held: [], gaps: [] },
-    [data, level],
-  );
+    let cancelled = false;
+    setBusy(true);
+    setError("");
+    api.gap(submitted, name, level === "all" ? undefined : level)
+      .then(r => { if (!cancelled) setData(r); })
+      .catch(() => { if (!cancelled) { setData(null); setError("Could not load role evidence. Try another seniority or submit your skills again."); } })
+      .finally(() => { if (!cancelled) setBusy(false); });
+    return () => { cancelled = true; };
+  }, [submitted, name, level]);
+  const scatter = { held: data?.you_have ?? [], gaps: data?.gaps ?? [] };
   return (
     <section className="section">
       <div className="shell">
@@ -83,7 +63,7 @@ export default function RolePage() {
             >
               {name}
             </h1>
-            <div className="meta-row">
+            <div className="meta-row" style={{ gap: "12px 32px", marginTop: 16 }}>
               <span>
                 <strong>
                   {(
@@ -96,19 +76,20 @@ export default function RolePage() {
               </span>
               {role &&
                 Object.entries(role.by_seniority).map(([k, v]) => (
-                  <span key={k}>
-                    {k} {v.toLocaleString()}
+                  <span key={k} style={{ display: "inline-flex", gap: 10 }}>
+                    <span>{k}</span><span style={{ letterSpacing: ".025em" }}>{v.toLocaleString()}</span>
                   </span>
                 ))}
             </div>
           </div>
-          {preview && <span className="preview">API fallback active</span>}
+
         </div>
         <div style={{ margin: "44px 0 22px" }}>
           <SkillInput
             value={chips}
             onChange={setChips}
-            onSubmit={() => void analyse()}
+            onSubmit={() => setSubmitted(chips.map(c => c.canonical ?? c.input))}
+            busy={busy}
           />
         </div>
         {role && (
@@ -118,14 +99,16 @@ export default function RolePage() {
             onChange={setLevel}
           />
         )}{" "}
-        {data && (
+        {busy && <p role="status">Updating role evidence…</p>}
+        {error && <p role="alert" className="empty">{error}</p>}
+        {data && !busy && (
           <>
             <div className="split">
               <div>
                 <div className="kicker">You have</div>
                 <p>
                   <strong>{data.you_have.length}</strong> recognised skills ·{" "}
-                  <strong>{Math.round(data.coverage * 100)}%</strong> weighted
+                  <strong>{Math.round(data.coverage * 100)}%</strong> role skill
                   coverage
                 </p>
                 {scatter.held.length ? (
@@ -153,6 +136,10 @@ export default function RolePage() {
                 >
                   Missing
                 </h2>
+                <p className="quiet" style={{ fontSize: 13, lineHeight: 1.7, margin: "0 0 20px" }}>
+                  Ranked by prevalence and role distinctiveness. Bars show the share
+                  of postings mentioning each skill, so longer bars may appear lower.
+                </p>
                 {scatter.gaps.map((r, i) => (
                   <SupportBar
                     key={r.skill}
@@ -171,14 +158,7 @@ export default function RolePage() {
               <h2 className="section-title serif">What defines this role</h2>
               <LiftScatter held={scatter.held} gaps={scatter.gaps} />
             </div>
-            <div className="rule-top" style={{ paddingTop: 42 }}>
-              <h2 className="section-title serif">Nearest role comparison</h2>
-              <p className="quiet">
-                Sibling comparisons call the same gap endpoint for two roles.
-                Choose another role from the role index once the API is
-                connected to compare their distinctive gaps.
-              </p>
-            </div>
+
           </>
         )}
       </div>

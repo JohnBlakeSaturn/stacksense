@@ -1,5 +1,5 @@
 "use client";
-const levels = ["junior", "mid", "senior", "staff", "lead", "principal"];
+const levels = ["all", "junior", "mid", "senior", "staff", "lead", "principal"];
 export default function SeniorityToggle({
   counts,
   value,
@@ -18,15 +18,17 @@ export default function SeniorityToggle({
       }}
     >
       {levels.map((l) => {
-        const disabled = (counts[l] ?? 0) < 20;
+        const count = l === "all" ? Object.values(counts).reduce((a,b) => a+b,0) : (counts[l] ?? 0);
+        const disabled = count < 20;
         return (
           <button
             title={
               disabled
-                ? `Only ${counts[l] ?? 0} postings — too few for a reliable split`
-                : `${counts[l].toLocaleString()} postings`
+                ? `Only ${count} postings — too few for a reliable split`
+                : `${count.toLocaleString()} postings`
             }
             disabled={disabled}
+            aria-pressed={value === l}
             onClick={() => onChange(l)}
             key={l}
             style={{

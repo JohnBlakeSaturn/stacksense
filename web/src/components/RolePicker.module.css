@@ -1,0 +1,7 @@
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 46px 72px; }
+.grid h2 { font-size: 24px; font-weight: 500; border-bottom: 1px solid var(--ink); padding-bottom: 10px; }
+.role { display: flex; align-items: baseline; justify-content: space-between; gap: 28px; padding: 14px 0; border-bottom: 1px solid var(--rule); }
+.role span { min-width: 0; overflow-wrap: anywhere; }
+.role strong { flex-shrink: 0; font-size: 14px; font-variant-numeric: tabular-nums; letter-spacing: .025em; }
+.role:hover span { color: var(--graph); }
+@media (max-width: 680px) { .grid { grid-template-columns: 1fr; gap: 28px; } }

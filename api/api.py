@@ -268,6 +268,7 @@ class Engine:
             "years_observed": entry.get("n_years"),
             "latest_adoption": entry.get("latest"),
             "desire_gap": entry.get("desire_gap"),
+            "rank_series": entry.get("rank_series"),
         }
 
 
@@ -386,7 +387,7 @@ def list_skills() -> dict:
     }
 
 
-@app.get("/skills/{name}")
+@app.get("/skills/{name:path}")
 def skill_detail(name: str, neighbours: int = 15) -> dict:
     require_ready()
     canonical = engine.resolve(name)
@@ -401,11 +402,11 @@ def skill_detail(name: str, neighbours: int = 15) -> dict:
         "degree": int(engine.degree[engine.index[canonical]]),
         "trend": engine.trend_of(canonical),
         "co_occurring_distinctive": [
-            {"skill": s, "pmi": p, "postings": c}
+            {"skill": s, "category": engine.categories.get(s), "pmi": p, "postings": c}
             for s, p, c in engine.neighbours[canonical][:neighbours]
         ],
         "co_occurring_frequent": [
-            {"skill": s, "pmi": p, "postings": c}
+            {"skill": s, "category": engine.categories.get(s), "pmi": p, "postings": c}
             for s, p, c in sorted(engine.neighbours[canonical],
                                   key=lambda t: -t[2])[:neighbours]
         ],
@@ -540,6 +541,15 @@ def role_gap(body: GapIn) -> dict:
 
     have = {c for s in body.skills if (c := engine.resolve(s))}
     edges = engine.role_edges[body.role]
+    postings = engine.role_info[body.role]["postings"]
+    if body.seniority:
+        levels = engine.role_info[body.role]["by_level"]
+        if body.seniority not in levels:
+            raise HTTPException(422, "unknown seniority")
+        postings = levels[body.seniority]
+        if postings < 20:
+            raise HTTPException(422, "too few postings for this seniority")
+        edges = [e for e in edges if e.get("by_level", {}).get(body.seniority, 0) > 0]
 
     missing, covered = [], []
     for e in edges:
@@ -562,7 +572,7 @@ def role_gap(body: GapIn) -> dict:
     return {
         "role": body.role,
         "seniority": body.seniority,
-        "postings_analysed": engine.role_info[body.role]["postings"],
+        "postings_analysed": postings,
         "coverage": round(len(covered) / total, 4) if total else 0.0,
         "you_have": sorted(covered, key=lambda r: -r["support"])[:30],
         "gaps": missing[: body.top_k],
@@ -604,7 +614,7 @@ def role_match(body: SkillsIn) -> dict:
     return {"recognised": sorted(have), "roles": rows}
 
 
-@app.get("/trends/{name}")
+@app.get("/trends/{name:path}")
 def trend(name: str) -> dict:
     require_ready()
     canonical = engine.resolve(name) or name

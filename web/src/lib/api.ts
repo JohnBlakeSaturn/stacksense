@@ -204,7 +204,7 @@ export const api = {
       }>;
     }>("/skills"),
   roles: () => request<{ roles: Role[] }>("/roles"),
-  gap: (skills: string[], role: string) =>
+  gap: (skills: string[], role: string, seniority?: string) =>
     request<{
       role: string;
       postings_analysed: number;
@@ -214,7 +214,7 @@ export const api = {
       note: string;
     }>("/roles/gap", {
       method: "POST",
-      body: JSON.stringify({ skills, role, top_k: 15 }),
+      body: JSON.stringify({ skills, role, seniority, top_k: 15 }),
     }),
   match: (skills: string[]) =>
     request<{ recognised: string[]; roles: RoleMatch[] }>("/roles/match", {
@@ -231,11 +231,13 @@ export const api = {
       trend?: Trend | null;
       co_occurring_distinctive: Array<{
         skill: string;
+        category: string | null;
         pmi: number;
         postings: number;
       }>;
       co_occurring_frequent: Array<{
         skill: string;
+        category: string | null;
         pmi: number;
         postings: number;
       }>;

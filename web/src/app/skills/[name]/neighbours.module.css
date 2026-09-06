@@ -1,0 +1,8 @@
+.row { display: grid; gap: 12px; padding: 16px 0; border-bottom: 1px solid var(--rule); font-size: 14px; }
+.identity { display: flex; align-items: baseline; flex-wrap: wrap; gap: 6px 12px; overflow-wrap: anywhere; }
+.category { color: var(--quiet); font-size: 11px; line-height: 1.5; border: 1px solid var(--rule); border-radius: 4px; padding: 1px 6px; }
+.metrics { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px 24px; font-variant-numeric: tabular-nums; letter-spacing: .025em; }
+.metric { display: inline-flex; align-items: baseline; gap: 7px; white-space: nowrap; }
+.unit { color: var(--quiet); font-size: 12px; letter-spacing: normal; }
+.row:hover .identity > span:first-child { color: var(--graph); text-decoration: underline; }
+.row:focus-visible { outline: 2px solid var(--graph); outline-offset: 4px; }

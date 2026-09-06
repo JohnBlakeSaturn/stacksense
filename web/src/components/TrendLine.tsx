@@ -8,7 +8,8 @@ export default function TrendLine({
 }) {
   if (trend.years_observed < 4)
     return <p className="quiet">Too few survey years for a reliable trend.</p>;
-  const entries = Object.entries(trend.rank_series ?? {});
+  const entries = Object.entries(trend.rank_series ?? {}).filter(([,v]) => Number.isFinite(v)).sort(([a],[b]) => Number(a)-Number(b));
+  if (entries.length < 2) return <p className="quiet">No survey series available for this skill.</p>;
   const vals = entries.map(([, v]) => v);
   const min = Math.min(...vals),
     max = Math.max(...vals);
@@ -33,7 +34,7 @@ export default function TrendLine({
             trend.direction === "falling" ? "var(--signal)" : "var(--rise)"
           }
           strokeWidth="2.5"
-          points={points || "0,50 40,42 80,46 120,31 160,26 200,19 240,12"}
+          points={points}
         />
       </svg>
       <div className="quiet" style={{ fontSize: 12 }}>

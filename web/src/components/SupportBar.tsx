@@ -1,8 +1,10 @@
 "use client";
 import Link from "next/link";
+import styles from "./SupportBar.module.css";
 import type { Trend } from "@/lib/api";
 export default function SupportBar({
   skill,
+  href,
   support,
   count,
   total,
@@ -11,6 +13,7 @@ export default function SupportBar({
   delay = 0,
 }: {
   skill: string;
+  href?: string;
   support: number;
   count?: number;
   total?: number;
@@ -19,22 +22,22 @@ export default function SupportBar({
   delay?: number;
 }) {
   return (
-    <Link href={`/skills/${encodeURIComponent(skill)}`} className="bar">
-      <span className="track">
+    <Link href={href ?? `/skills/${encodeURIComponent(skill)}`} className={styles.bar}>
+      <span className={styles.track}>
         <span
-          className="fill"
+          className={styles.fill}
           style={{
-            width: `${Math.min(100, support * 100)}%`,
+            width: `${Math.max(0, Math.min(100, support * 100))}%`,
             background: held ? "var(--graph-dim)" : "var(--signal)",
             animationDelay: `${delay}ms`,
           }}
         />
       </span>
-      <span className="name">{skill}</span>
-      <span className="value">
-        <span className="pct">{Math.round(support * 100)}%</span>
+      <span className={styles.name}>{skill}</span>
+      <span className={styles.value}>
+        <span className={styles.pct}>{Math.round(support * 100)}%</span>
         {count != null && total ? (
-          <span className="denom">
+          <span className={styles.denom}>
             {count.toLocaleString()} of {total.toLocaleString()}
           </span>
         ) : null}
@@ -55,60 +58,6 @@ export default function SupportBar({
             ? "↓"
             : "·"}
       </span>
-      <style jsx>{`
-        .bar {
-          display: grid;
-          grid-template-columns: minmax(80px, 1fr) minmax(
-              110px,
-              1.1fr
-            ) 92px 15px;
-          gap: 12px;
-          align-items: center;
-          padding: 9px 0;
-          border-bottom: 1px solid var(--rule);
-          font-size: 14px;
-        }
-        .track {
-          height: 8px;
-          background: var(--wash);
-          overflow: hidden;
-        }
-        .fill {
-          height: 100%;
-          display: block;
-          transform-origin: left;
-          animation: draw 0.4s cubic-bezier(0.2, 0, 0, 1) both;
-        }
-        .value {
-          text-align: right;
-        }
-        .denom {
-          display: none;
-        }
-        .bar:hover .pct {
-          display: none;
-        }
-        .bar:hover .denom {
-          display: inline;
-        }
-        @keyframes draw {
-          from {
-            transform: scaleX(0);
-          }
-          to {
-            transform: scaleX(1);
-          }
-        }
-        @media (max-width: 560px) {
-          .bar {
-            grid-template-columns: 70px 1fr 70px 12px;
-            gap: 8px;
-          }
-          .denom {
-            font-size: 11px;
-          }
-        }
-      `}</style>
     </Link>
   );
 }

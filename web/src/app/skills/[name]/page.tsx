@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
+import styles from "./neighbours.module.css";
+import SkillSelector from "@/components/SkillSelector";
 import SupportBar from "@/components/SupportBar";
 import TrendLine from "@/components/TrendLine";
 import { api, type Trend } from "@/lib/api";
@@ -14,11 +16,13 @@ type Data = {
   trend?: Trend | null;
   co_occurring_distinctive: Array<{
     skill: string;
+    category: string | null;
     pmi: number;
     postings: number;
   }>;
   co_occurring_frequent: Array<{
     skill: string;
+    category: string | null;
     pmi: number;
     postings: number;
   }>;
@@ -28,50 +32,20 @@ export default function SkillPage() {
   const { name } = useParams<{ name: string }>();
   const label = decodeURIComponent(name);
   const [data, setData] = useState<Data | null>(null);
-  const [preview, setPreview] = useState(false);
+  const [loadedLabel, setLoadedLabel] = useState("");
+  const [error, setError] = useState("");
   useEffect(() => {
-    api
-      .skill(label)
-      .then(setData)
-      .catch(() => {
-        /* FALLBACK: clearly labelled representative shape for offline visual testing. */ setData(
-          {
-            canonical: label,
-            category: "Tool",
-            in_survey: true,
-            postings_mentioning: 5049,
-            degree: 412,
-            trend: {
-              rank_slope: 0.052,
-              direction: "rising",
-              years_observed: 6,
-              latest_adoption: 0.285,
-            },
-            co_occurring_distinctive: [
-              { skill: "Docker Compose", pmi: 4.82, postings: 61 },
-              { skill: "Podman", pmi: 3.91, postings: 48 },
-              { skill: "Containerization", pmi: 3.21, postings: 244 },
-            ],
-            co_occurring_frequent: [
-              { skill: "Kubernetes", pmi: 2.07, postings: 1738 },
-              { skill: "AWS", pmi: 1.42, postings: 1481 },
-              { skill: "Linux", pmi: 1.31, postings: 1290 },
-            ],
-            roles_requiring: [
-              { role: "DevOps Engineer", support: 0.62, lift: 1.94 },
-              { role: "Cloud Infrastructure", support: 0.51, lift: 1.63 },
-              { role: "Software Engineer", support: 0.27, lift: 0.88 },
-            ],
-          },
-        );
-        setPreview(true);
-      });
+    let cancelled = false;
+    api.skill(label).then(value => { if (!cancelled) { setData(value); setLoadedLabel(label); setError(""); } })
+      .catch(() => { if (!cancelled) { setData(null); setError("Could not load this skill. Choose another skill or refresh to try again."); } });
+    return () => { cancelled = true; };
   }, [label]);
-  if (!data)
-    return <div className="shell section">Loading skill evidence…</div>;
+  if (error || !data || loadedLabel !== label)
+    return <div className="shell section"><SkillSelector current={label} /><p role="status">{error || "Loading skill evidence…"}</p></div>;
   return (
     <section className="section">
       <div className="shell">
+        <SkillSelector current={label} />
         <div
           style={{
             display: "flex",
@@ -96,7 +70,7 @@ export default function SkillPage() {
               </span>
             </div>
           </div>
-          {preview && <span className="preview">API fallback active</span>}
+
         </div>
         <div className="split" style={{ marginTop: 52 }}>
           <Neighbour
@@ -118,8 +92,7 @@ export default function SkillPage() {
                 key={r.role}
                 skill={r.role}
                 support={r.support}
-                count={Math.round(r.support * 1000)}
-                total={1000}
+                href={`/roles/${encodeURIComponent(r.role)}`}
                 delay={i * 30}
               />
             ))}
@@ -146,7 +119,7 @@ function Neighbour({
 }: {
   title: string;
   subtitle: string;
-  rows: Array<{ skill: string; pmi: number; postings: number }>;
+  rows: Array<{ skill: string; category: string | null; pmi: number; postings: number }>;
 }) {
   return (
     <div>
@@ -158,17 +131,19 @@ function Neighbour({
         <Link
           href={`/skills/${encodeURIComponent(r.skill)}`}
           key={r.skill}
-          style={{
-            display: "grid",
-            gridTemplateColumns: "1fr auto",
-            padding: "12px 0",
-            borderBottom: "1px solid var(--rule)",
-          }}
+          className={styles.row}
         >
-          <span>{r.skill}</span>
-          <span>
-            <strong>{r.pmi.toFixed(2)}</strong> lift index ·{" "}
-            {r.postings.toLocaleString()}
+          <span className={styles.identity}>
+            <span>{r.skill}</span>
+            {r.category && <span className={styles.category}>{r.category.replaceAll("/", " / ")}</span>}
+          </span>
+          <span className={styles.metrics}>
+            <span className={styles.metric} title="Pointwise mutual information: how much more often these skills co-occur than expected by chance">
+              <strong>{r.pmi.toFixed(2)}</strong><span className={styles.unit}>PMI</span>
+            </span>
+            <span className={styles.metric}>
+              <strong>{r.postings.toLocaleString()}</strong><span className={styles.unit}>postings</span>
+            </span>
           </span>
         </Link>
       ))}
